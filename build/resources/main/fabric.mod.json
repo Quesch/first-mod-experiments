@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "fabricchaos",
+  "version": "1.0-SNAPSHOT",
+  "name": "Fabricchaos",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fabricchaos/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.nootnoot.fabricchaos.client.FabricchaosClient"
+    ],
+    "main": [
+      "org.nootnoot.fabricchaos.Fabricchaos"
+    ]
+  },
+  "mixins": [
+    "fabricchaos.mixins.json",
+    {
+      "config": "fabricchaos.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.8",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}

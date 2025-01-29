@@ -1,0 +1,23 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-10-31 13:40:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:swamp": "2024-10-31 13:40:48 +0100",
+      "minecraft:forest": "2024-10-31 13:41:22 +0100",
+      "minecraft:plains": "2024-10-31 13:41:23 +0100"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-10-31 13:41:44 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

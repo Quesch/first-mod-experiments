@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "fabricchaos:block/suspicious_block" }
+  }
+}

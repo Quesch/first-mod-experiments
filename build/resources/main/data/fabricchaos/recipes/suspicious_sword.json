@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#F"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:netherite_sword"
+        },
+        "F": {
+            "item": "fabricchaos:suspicious_substance"
+        }
+    },
+    "result": {
+        "item": "fabricchaos:suspicious_sword",
+        "count": 1
+    }
+}
