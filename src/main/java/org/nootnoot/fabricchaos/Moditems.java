@@ -1,19 +1,14 @@
 package org.nootnoot.fabricchaos;
 
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.registry.CompostingChanceRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
-import net.fabricmc.fabric.api.transfer.v1.fluid.CauldronFluidContent;
-import net.minecraft.data.server.recipe.CraftingRecipeJsonBuilder;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import net.minecraft.world.World;
+import org.nootnoot.fabricchaos.suspiciousItems.SuspiciousSword;
 
 
 public class Moditems {
@@ -51,9 +46,12 @@ public class Moditems {
             "suspicious_substance" //Name the texture file the same as the item's identifier, but with a .png extension.
     );
     public static final Item SUSPICIOUS_SWORD = register(
-            new SwordItem(SuspiciousMaterial.NETHERITE_INSTANCE,6,0.06f, new Item.Settings()) {}
+            new SuspiciousSword(ToolMaterials.NETHERITE,6,0.06f) {}
             ,"suspicious_sword"
-    );
+    );//well this would work if it wasn't for me being dumb. I didn't want a new material but a new item
     public static final BucketItem SUSPICIOUS_BUCKET = ModFluids.registerFluidBucket("suspicious_bucket",ModFluids.STILLSUSPICIOUSFLUID);
 
+
+
+    public static Item.Settings defaultsettings(){return new Item.Settings();}
 }

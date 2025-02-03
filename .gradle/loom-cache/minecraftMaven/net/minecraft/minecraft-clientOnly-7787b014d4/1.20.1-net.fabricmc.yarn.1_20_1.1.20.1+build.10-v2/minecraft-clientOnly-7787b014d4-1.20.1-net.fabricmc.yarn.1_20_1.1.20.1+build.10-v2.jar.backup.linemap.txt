@@ -2823,6 +2823,25 @@ net/minecraft/client/render/model/json/SimpleMultipartModelSelector	70	71
 	59	63
 	62	66
 net/minecraft/client/render/entity/model/ModelWithHat	0	0
+net/minecraft/client/render/entity/model/LlamaSpitEntityModel	47	66
+	32	51
+	33	52
+	34	53
+	35	54
+	38	57
+	43	62
+	47	66
+	17	37
+	18	38
+	21	41
+	22	42
+	24	43
+	25	44
+	26	46
+	27	47
+	28	48
+	29	49
+	30	50
 net/minecraft/client/render/block/entity/ConduitBlockEntityRenderer	150	136
 	130	109
 	131	111
@@ -2900,25 +2919,6 @@ net/minecraft/client/render/block/entity/ConduitBlockEntityRenderer	150	136
 	123	104
 	124	105
 	125	106
-net/minecraft/client/render/entity/model/LlamaSpitEntityModel	47	66
-	32	51
-	33	52
-	34	53
-	35	54
-	38	57
-	43	62
-	47	66
-	17	37
-	18	38
-	21	41
-	22	42
-	24	43
-	25	44
-	26	46
-	27	47
-	28	48
-	29	49
-	30	50
 net/minecraft/client/render/model/json/AndMultipartModelSelector	25	27
 	18	19
 	19	20
@@ -2929,6 +2929,38 @@ net/minecraft/client/render/model/json/OrMultipartModelSelector	25	27
 	19	20
 	23	25
 	25	27
+net/minecraft/client/render/entity/model/MinecartEntityModel	65	83
+	65	83
+	16	45
+	17	46
+	20	49
+	21	50
+	23	51
+	24	52
+	25	53
+	26	54
+	28	55
+	29	57
+	30	57
+	31	58
+	35	60
+	36	62
+	37	62
+	38	63
+	40	65
+	41	67
+	42	67
+	43	68
+	45	70
+	46	71
+	47	71
+	48	71
+	50	73
+	51	73
+	52	73
+	53	73
+	56	74
+	61	79
 net/minecraft/client/particle/ParticleTextureSheet	125	124
 	67	74
 	68	75
@@ -2973,38 +3005,6 @@ net/minecraft/client/particle/ParticleTextureSheet	125	124
 	125	124
 	62	69
 	63	70
-net/minecraft/client/render/entity/model/MinecartEntityModel	65	83
-	65	83
-	16	45
-	17	46
-	20	49
-	21	50
-	23	51
-	24	52
-	25	53
-	26	54
-	28	55
-	29	57
-	30	57
-	31	58
-	35	60
-	36	62
-	37	62
-	38	63
-	40	65
-	41	67
-	42	67
-	43	68
-	45	70
-	46	71
-	47	71
-	48	71
-	50	73
-	51	73
-	52	73
-	53	73
-	56	74
-	61	79
 net/minecraft/client/particle/SculkChargeParticle	46	48
 	33	33
 	34	34
@@ -4840,6 +4840,7 @@ net/minecraft/client/render/item/ItemRenderer	277	269
 	248	226
 	250	228
 	254	231
+net/minecraft/client/render/entity/animation/WardenAnimations	0	0
 net/minecraft/client/gui/screen/DisconnectedScreen	70	72
 	68	70
 	69	71
@@ -4872,7 +4873,6 @@ net/minecraft/client/render/entity/HoglinEntityRenderer	22	23
 	22	23
 	12	15
 	13	16
-net/minecraft/client/render/entity/animation/WardenAnimations	0	0
 net/minecraft/client/gui/screen/CustomizeFlatLevelScreen	226	236
 	41	41
 	42	42
@@ -5746,77 +5746,6 @@ net/minecraft/client/realms/gui/screen/UploadResult	30	34
 	12	15
 	13	16
 	30	34
-net/minecraft/client/render/debug/GameEventDebugRenderer	168	165
-	128	128
-	135	144
-	136	145
-	137	146
-	140	149
-	141	149
-	142	149
-	146	153
-	151	157
-	156	161
-	34	36
-	162	165
-	35	37
-	39	41
-	168	134
-	41	42
-	42	43
-	43	44
-	45	110
-	48	46
-	50	47
-	51	48
-	53	49
-	55	51
-	56	52
-	57	55
-	58	56
-	59	57
-	61	58
-	62	59
-	63	60
-	65	62
-	66	64
-	69	68
-	70	70
-	71	71
-	72	73
-	75	76
-	76	77
-	77	78
-	78	79
-	79	80
-	80	81
-	86	87
-	89	90
-	90	91
-	91	92
-	92	93
-	93	94
-	96	97
-	97	98
-	98	99
-	99	100
-	100	101
-	101	102
-	103	103
-	104	104
-	105	105
-	107	106
-	108	107
-	110	110
-	113	115
-	114	116
-	115	120
-	118	117
-	119	118
-	120	120
-	123	123
-	124	124
-	127	127
 net/minecraft/client/sound/SoundEngine	337	323
 	256	166
 	258	169
@@ -5942,6 +5871,77 @@ net/minecraft/client/sound/SoundEngine	337	323
 	252	161
 	253	162
 	255	165
+net/minecraft/client/render/debug/GameEventDebugRenderer	168	165
+	128	128
+	135	144
+	136	145
+	137	146
+	140	149
+	141	149
+	142	149
+	146	153
+	151	157
+	156	161
+	34	36
+	162	165
+	35	37
+	39	41
+	168	134
+	41	42
+	42	43
+	43	44
+	45	110
+	48	46
+	50	47
+	51	48
+	53	49
+	55	51
+	56	52
+	57	55
+	58	56
+	59	57
+	61	58
+	62	59
+	63	60
+	65	62
+	66	64
+	69	68
+	70	70
+	71	71
+	72	73
+	75	76
+	76	77
+	77	78
+	78	79
+	79	80
+	80	81
+	86	87
+	89	90
+	90	91
+	91	92
+	92	93
+	93	94
+	96	97
+	97	98
+	98	99
+	99	100
+	100	101
+	101	102
+	103	103
+	104	104
+	105	105
+	107	106
+	108	107
+	110	110
+	113	115
+	114	116
+	115	120
+	118	117
+	119	118
+	120	120
+	123	123
+	124	124
+	127	127
 net/minecraft/client/font/FontType	32	31
 	32	31
 	22	22
@@ -6032,6 +6032,13 @@ net/minecraft/client/render/ChunkBuilderMode	35	34
 	22	23
 	26	26
 	31	30
+net/minecraft/client/render/entity/model/CompositeEntityModel	24	26
+	18	20
+	19	21
+	23	25
+	24	26
+	14	16
+	15	17
 net/minecraft/client/particle/Particle	240	353
 	57	63
 	59	64
@@ -6141,13 +6148,6 @@ net/minecraft/client/particle/Particle	240	353
 	236	342
 	237	343
 	240	353
-net/minecraft/client/render/entity/model/CompositeEntityModel	24	26
-	18	20
-	19	21
-	23	25
-	24	26
-	14	16
-	15	17
 net/minecraft/client/tutorial/FindTreeTutorialStepHandler	96	92
 	64	59
 	66	61
@@ -6398,21 +6398,6 @@ net/minecraft/client/realms/dto/RealmsDescriptionDto	15	18
 	13	16
 	14	17
 	15	18
-net/minecraft/client/render/entity/DrownedEntityRenderer	40	42
-	32	35
-	34	36
-	35	37
-	36	38
-	37	39
-	38	40
-	40	42
-	17	20
-	18	22
-	19	23
-	20	24
-	22	26
-	23	27
-	27	31
 net/minecraft/client/render/entity/model/WitchEntityModel	84	122
 	65	105
 	67	106
@@ -6456,6 +6441,21 @@ net/minecraft/client/render/entity/model/WitchEntityModel	84	122
 	55	97
 	58	99
 	63	104
+net/minecraft/client/render/entity/DrownedEntityRenderer	40	42
+	32	35
+	34	36
+	35	37
+	36	38
+	37	39
+	38	40
+	40	42
+	17	20
+	18	22
+	19	23
+	20	24
+	22	26
+	23	27
+	27	31
 net/minecraft/client/gui/hud/MessageIndicator	62	61
 	35	34
 	39	38
@@ -6886,6 +6886,32 @@ net/minecraft/client/gui/widget/PressableWidget	69	73
 	57	62
 	61	66
 	62	67
+net/minecraft/client/report/AbuseReportSender	87	88
+	67	75
+	71	79
+	72	80
+	73	81
+	74	82
+	80	88
+	21	22
+	86	36
+	87	37
+	29	30
+	39	48
+	40	51
+	43	51
+	44	51
+	45	51
+	49	55
+	50	56
+	51	57
+	52	58
+	53	59
+	54	60
+	55	61
+	56	62
+	58	65
+	63	71
 net/minecraft/client/render/entity/MinecartEntityRenderer	118	107
 	26	28
 	27	29
@@ -6947,32 +6973,6 @@ net/minecraft/client/render/entity/MinecartEntityRenderer	118	107
 	113	102
 	117	106
 	118	107
-net/minecraft/client/report/AbuseReportSender	87	88
-	67	75
-	71	79
-	72	80
-	73	81
-	74	82
-	80	88
-	21	22
-	86	36
-	87	37
-	29	30
-	39	48
-	40	51
-	43	51
-	44	51
-	45	51
-	49	55
-	50	56
-	51	57
-	52	58
-	53	59
-	54	60
-	55	61
-	56	62
-	58	65
-	63	71
 net/minecraft/client/gui/hud/DebugHud	612	620
 	513	530
 	514	531
@@ -8241,11 +8241,6 @@ net/minecraft/client/render/entity/model/FrogEntityModel	162	117
 	123	89
 	126	91
 	127	92
-net/minecraft/client/texture/PaintingManager	21	22
-	17	18
-	21	22
-	13	14
-	14	15
 net/minecraft/client/world/BiomeColorCache	165	173
 	128	74
 	130	76
@@ -8315,6 +8310,11 @@ net/minecraft/client/world/BiomeColorCache	165	173
 	121	68
 	126	72
 	127	73
+net/minecraft/client/texture/PaintingManager	21	22
+	17	18
+	21	22
+	13	14
+	14	15
 net/minecraft/client/gui/navigation/NavigationAxis	30	33
 	16	19
 	17	20
@@ -8581,6 +8581,44 @@ net/minecraft/client/render/model/ModelRotation	73	70
 net/minecraft/client/gui/navigation/GuiNavigationType	15	21
 	11	17
 	15	21
+net/minecraft/client/realms/gui/screen/RealmsTermsScreen	102	105
+	64	71
+	65	72
+	67	74
+	71	78
+	72	79
+	73	80
+	74	81
+	77	83
+	82	89
+	87	94
+	89	95
+	90	96
+	91	97
+	93	98
+	94	99
+	95	100
+	96	101
+	98	102
+	99	103
+	36	33
+	37	34
+	101	104
+	38	35
+	102	105
+	39	36
+	40	37
+	44	41
+	46	43
+	47	46
+	48	50
+	52	54
+	53	55
+	54	56
+	56	58
+	60	63
+	62	66
+	63	67
 net/minecraft/client/gui/screen/world/EditWorldScreen	170	197
 	128	155
 	129	156
@@ -8669,44 +8707,6 @@ net/minecraft/client/gui/screen/world/EditWorldScreen	170	197
 	125	140
 	126	138
 	127	139
-net/minecraft/client/realms/gui/screen/RealmsTermsScreen	102	105
-	64	71
-	65	72
-	67	74
-	71	78
-	72	79
-	73	80
-	74	81
-	77	83
-	82	89
-	87	94
-	89	95
-	90	96
-	91	97
-	93	98
-	94	99
-	95	100
-	96	101
-	98	102
-	99	103
-	36	33
-	37	34
-	101	104
-	38	35
-	102	105
-	39	36
-	40	37
-	44	41
-	46	43
-	47	46
-	48	50
-	52	54
-	53	55
-	54	56
-	56	58
-	60	63
-	62	66
-	63	67
 net/minecraft/client/texture/PlayerSkinTexture	224	212
 	43	40
 	44	41
@@ -9000,6 +9000,14 @@ net/minecraft/client/render/block/entity/BeaconBlockEntityRenderer	134	230
 	119	211
 	120	218
 	124	221
+net/minecraft/client/util/math/Vector2f	22	25
+	17	21
+	22	25
+	8	12
+	9	13
+	10	14
+	13	17
+net/minecraft/unused/packageinfo/PackageInfo8501	0	0
 net/minecraft/client/render/model/json/ModelOverrideList	127	130
 	30	30
 	31	31
@@ -9055,14 +9063,11 @@ net/minecraft/client/render/model/json/ModelOverrideList	127	130
 	123	113
 	124	114
 	127	118
-net/minecraft/client/util/math/Vector2f	22	25
-	17	21
-	22	25
-	8	12
-	9	13
-	10	14
-	13	17
-net/minecraft/unused/packageinfo/PackageInfo8501	0	0
+net/minecraft/client/render/entity/SheepEntityRenderer	20	21
+	16	18
+	20	21
+	13	16
+	15	17
 net/minecraft/client/item/CompassAnglePredicateProvider	129	112
 	128	111
 	129	112
@@ -9108,11 +9113,6 @@ net/minecraft/client/item/CompassAnglePredicateProvider	129	112
 	126	109
 	63	55
 	127	110
-net/minecraft/client/render/entity/SheepEntityRenderer	20	21
-	16	18
-	20	21
-	13	16
-	15	17
 net/minecraft/client/gui/widget/TabButtonWidget	91	90
 	66	64
 	67	65
@@ -9149,6 +9149,11 @@ net/minecraft/client/gui/widget/TabButtonWidget	91	90
 	61	59
 	62	60
 	63	61
+net/minecraft/client/realms/exception/RealmsDefaultUncaughtExceptionHandler	15	18
+	9	13
+	10	14
+	14	17
+	15	18
 net/minecraft/client/gui/screen/report/AbuseReportReasonScreen	193	180
 	129	116
 	130	117
@@ -9226,11 +9231,6 @@ net/minecraft/client/gui/screen/report/AbuseReportReasonScreen	193	180
 	116	103
 	120	107
 	124	111
-net/minecraft/client/realms/exception/RealmsDefaultUncaughtExceptionHandler	15	18
-	9	13
-	10	14
-	14	17
-	15	18
 net/minecraft/client/gui/screen/ingame/CreativeInventoryListener	22	23
 	17	19
 	18	20
@@ -9805,6 +9805,81 @@ net/minecraft/client/render/entity/model/ParrotEntityModel	259	204
 	253	200
 	254	201
 	255	202
+net/minecraft/client/resource/PeriodicNotificationManager	178	194
+	128	147
+	129	148
+	130	149
+	131	150
+	132	151
+	144	162
+	145	163
+	146	164
+	147	165
+	150	168
+	152	169
+	157	173
+	158	174
+	31	40
+	32	41
+	160	176
+	33	42
+	161	177
+	34	43
+	35	44
+	36	46
+	165	178
+	166	179
+	168	180
+	169	183
+	170	184
+	172	186
+	173	187
+	175	190
+	49	59
+	50	60
+	178	194
+	51	61
+	55	70
+	56	86
+	57	87
+	58	88
+	60	89
+	65	94
+	66	96
+	67	97
+	68	98
+	69	99
+	71	100
+	72	101
+	73	120
+	76	102
+	77	103
+	78	104
+	79	120
+	82	106
+	83	107
+	85	108
+	86	109
+	89	112
+	90	113
+	92	115
+	95	118
+	96	120
+	100	123
+	101	124
+	104	127
+	105	128
+	107	130
+	110	133
+	111	133
+	112	134
+	113	135
+	115	136
+	116	136
+	120	140
+	121	140
+	122	140
+	123	140
 net/minecraft/client/render/entity/model/HorseEntityModel	335	325
 	256	263
 	257	264
@@ -9997,81 +10072,6 @@ net/minecraft/client/render/entity/model/HorseEntityModel	335	325
 	251	258
 	252	259
 	255	262
-net/minecraft/client/resource/PeriodicNotificationManager	178	194
-	128	147
-	129	148
-	130	149
-	131	150
-	132	151
-	144	162
-	145	163
-	146	164
-	147	165
-	150	168
-	152	169
-	157	173
-	158	174
-	31	40
-	32	41
-	160	176
-	33	42
-	161	177
-	34	43
-	35	44
-	36	46
-	165	178
-	166	179
-	168	180
-	169	183
-	170	184
-	172	186
-	173	187
-	175	190
-	49	59
-	50	60
-	178	194
-	51	61
-	55	70
-	56	86
-	57	87
-	58	88
-	60	89
-	65	94
-	66	96
-	67	97
-	68	98
-	69	99
-	71	100
-	72	101
-	73	120
-	76	102
-	77	103
-	78	104
-	79	120
-	82	106
-	83	107
-	85	108
-	86	109
-	89	112
-	90	113
-	92	115
-	95	118
-	96	120
-	100	123
-	101	124
-	104	127
-	105	128
-	107	130
-	110	133
-	111	133
-	112	134
-	113	135
-	115	136
-	116	136
-	120	140
-	121	140
-	122	140
-	123	140
 net/minecraft/client/gui/screen/CustomizeBuffetLevelScreen	137	154
 	131	150
 	134	151
@@ -10438,6 +10438,21 @@ net/minecraft/client/gui/widget/PressableTextWidget	26	29
 	24	27
 	25	28
 	26	29
+net/minecraft/client/render/entity/model/SinglePartEntityModelWithChildTransform	38	38
+	33	33
+	34	34
+	36	36
+	38	38
+	17	18
+	18	19
+	21	22
+	22	23
+	23	24
+	24	25
+	28	29
+	29	30
+	30	31
+	31	32
 net/minecraft/client/particle/ExplosionSmokeParticle	48	51
 	35	38
 	36	39
@@ -10461,21 +10476,6 @@ net/minecraft/client/particle/ExplosionSmokeParticle	48	51
 	25	28
 	26	29
 	30	33
-net/minecraft/client/render/entity/model/SinglePartEntityModelWithChildTransform	38	38
-	33	33
-	34	34
-	36	36
-	38	38
-	17	18
-	18	19
-	21	22
-	22	23
-	23	24
-	24	25
-	28	29
-	29	30
-	30	31
-	31	32
 net/minecraft/client/render/entity/model/IllagerEntityModel	214	186
 	28	30
 	29	31
@@ -11397,6 +11397,17 @@ net/minecraft/client/render/entity/EvokerEntityRenderer	29	43
 	25	40
 	29	43
 	15	19
+net/minecraft/client/texture/atlas/AtlasSourceManager	48	37
+	32	25
+	48	37
+	42	31
+	27	21
+	43	32
+	28	22
+	44	33
+	45	34
+	46	35
+	31	24
 net/minecraft/client/realms/RepeatedNarrator	37	40
 	16	18
 	19	21
@@ -11410,17 +11421,6 @@ net/minecraft/client/realms/RepeatedNarrator	37	40
 	26	28
 	28	30
 	15	17
-net/minecraft/client/texture/atlas/AtlasSourceManager	48	37
-	32	25
-	48	37
-	42	31
-	27	21
-	43	32
-	28	22
-	44	33
-	45	34
-	46	35
-	31	24
 net/minecraft/client/render/Camera	246	266
 	42	46
 	43	47
@@ -11637,6 +11637,18 @@ net/minecraft/client/particle/FishingParticle	64	61
 	53	50
 	59	57
 	60	58
+net/minecraft/client/realms/dto/BackupList	33	36
+	33	36
+	18	19
+	20	20
+	21	21
+	23	24
+	24	25
+	25	26
+	26	28
+	27	29
+	30	32
+	31	33
 net/minecraft/client/particle/SuspendParticle	131	128
 	128	77
 	129	78
@@ -11697,18 +11709,6 @@ net/minecraft/client/particle/SuspendParticle	131	128
 	115	64
 	123	73
 	124	74
-net/minecraft/client/realms/dto/BackupList	33	36
-	33	36
-	18	19
-	20	20
-	21	21
-	23	24
-	24	25
-	25	26
-	26	28
-	27	29
-	30	32
-	31	33
 net/minecraft/client/tutorial/PunchTreeTutorialStepHandler	91	88
 	64	61
 	66	63
@@ -11800,18 +11800,6 @@ net/minecraft/client/realms/util/RealmsTextureManager	66	62
 	29	27
 	61	56
 	62	57
-net/minecraft/client/gui/ScreenPos	23	32
-	16	25
-	5	14
-	21	30
-	6	15
-	22	31
-	7	16
-	23	32
-	12	21
-	13	22
-	14	23
-	15	24
 net/minecraft/client/realms/task/LongRunningTask	55	63
 	32	40
 	33	41
@@ -11831,6 +11819,18 @@ net/minecraft/client/realms/task/LongRunningTask	55	63
 	27	35
 	28	36
 	29	37
+net/minecraft/client/gui/ScreenPos	23	32
+	16	25
+	5	14
+	21	30
+	6	15
+	22	31
+	7	16
+	23	32
+	12	21
+	13	22
+	14	23
+	15	24
 net/minecraft/client/render/entity/MagmaCubeEntityRenderer	42	40
 	32	31
 	17	19
@@ -12392,6 +12392,39 @@ net/minecraft/client/render/entity/WitchEntityRenderer	36	34
 	25	25
 	29	28
 	15	18
+net/minecraft/client/render/entity/model/SlimeEntityModel	66	46
+	66	46
+	16	18
+	17	19
+	20	22
+	21	23
+	23	24
+	24	24
+	25	24
+	29	25
+	33	29
+	34	30
+	36	31
+	37	31
+	38	31
+	41	32
+	42	33
+	43	33
+	46	35
+	47	35
+	48	35
+	51	36
+	52	36
+	53	36
+	57	37
+	62	42
+net/minecraft/client/render/chunk/BlockBufferBuilderStorage	21	26
+	16	21
+	17	22
+	20	25
+	21	26
+	9	14
+	12	17
 net/minecraft/client/render/block/entity/EndGatewayBlockEntityRenderer	49	54
 	34	39
 	39	44
@@ -12409,13 +12442,6 @@ net/minecraft/client/render/block/entity/EndGatewayBlockEntityRenderer	49	54
 	27	31
 	29	34
 	30	35
-net/minecraft/client/render/chunk/BlockBufferBuilderStorage	21	26
-	16	21
-	17	22
-	20	25
-	21	26
-	9	14
-	12	17
 net/minecraft/client/render/entity/EnderDragonEntityRenderer	538	519
 	512	480
 	513	481
@@ -12754,32 +12780,6 @@ net/minecraft/client/render/entity/EnderDragonEntityRenderer	538	519
 	509	477
 	510	478
 	511	479
-net/minecraft/client/render/entity/model/SlimeEntityModel	66	46
-	66	46
-	16	18
-	17	19
-	20	22
-	21	23
-	23	24
-	24	24
-	25	24
-	29	25
-	33	29
-	34	30
-	36	31
-	37	31
-	38	31
-	41	32
-	42	33
-	43	33
-	46	35
-	47	35
-	48	35
-	51	36
-	52	36
-	53	36
-	57	37
-	62	42
 net/minecraft/client/gui/hud/InGameHud	1302	1221
 	1026	911
 	1027	893
@@ -15271,6 +15271,23 @@ net/minecraft/client/realms/dto/PendingInvite	32	33
 	28	28
 	29	29
 	30	30
+net/minecraft/client/realms/util/Realms32BitWarningChecker	51	58
+	34	37
+	35	38
+	39	42
+	40	43
+	41	44
+	42	45
+	43	46
+	49	56
+	50	57
+	51	58
+	23	26
+	24	27
+	27	30
+	28	31
+	29	32
+	31	34
 net/minecraft/client/gui/ParentElement	252	247
 	27	33
 	28	34
@@ -15475,23 +15492,6 @@ net/minecraft/client/gui/screen/advancement/AdvancementsScreen	238	222
 	235	218
 	236	219
 	238	222
-net/minecraft/client/realms/util/Realms32BitWarningChecker	51	58
-	34	37
-	35	38
-	39	42
-	40	43
-	41	44
-	42	45
-	43	46
-	49	56
-	50	57
-	51	58
-	23	26
-	24	27
-	27	30
-	28	31
-	29	32
-	31	34
 net/minecraft/client/render/entity/model/BlazeEntityModel	108	158
 	21	74
 	22	75
@@ -15645,11 +15645,6 @@ net/minecraft/client/texture/NativeImageBackedTexture	81	82
 	60	60
 	62	63
 	63	64
-net/minecraft/client/gui/widget/Widget	28	29
-	22	23
-	26	27
-	27	28
-	28	29
 net/minecraft/client/realms/gui/screen/RealmsDownloadLatestWorldScreen	298	293
 	256	249
 	257	250
@@ -15785,6 +15780,11 @@ net/minecraft/client/realms/gui/screen/RealmsDownloadLatestWorldScreen	298	293
 	250	243
 	251	244
 	255	248
+net/minecraft/client/gui/widget/Widget	28	29
+	22	23
+	26	27
+	27	28
+	28	29
 net/minecraft/client/render/block/entity/ChestBlockEntityRenderer	199	144
 	128	93
 	129	93
@@ -16188,6 +16188,20 @@ net/minecraft/client/resource/language/ReorderingUtil	34	36
 	23	25
 	24	26
 	27	29
+net/minecraft/client/sound/SoundListener	36	39
+	34	37
+	35	38
+	36	39
+	12	15
+	13	16
+	14	17
+	17	20
+	21	24
+	22	25
+	25	28
+	26	29
+	27	30
+	30	33
 net/minecraft/client/render/entity/PiglinEntityRenderer	55	59
 	32	35
 	34	38
@@ -16204,20 +16218,6 @@ net/minecraft/client/render/entity/PiglinEntityRenderer	55	59
 	29	33
 	30	35
 	31	35
-net/minecraft/client/sound/SoundListener	36	39
-	34	37
-	35	38
-	36	39
-	12	15
-	13	16
-	14	17
-	17	20
-	21	24
-	22	25
-	25	28
-	26	29
-	27	30
-	30	33
 net/minecraft/client/realms/util/PeriodicRunnerFactory	174	169
 	128	122
 	129	123
@@ -17212,33 +17212,7 @@ net/minecraft/client/render/entity/model/EvokerFangsEntityModel	64	89
 	59	84
 	60	85
 net/minecraft/unused/packageinfo/PackageInfo6188	0	0
-net/minecraft/client/gui/screen/WarningScreen	70	67
-	66	63
-	67	64
-	70	67
-	22	22
-	23	23
-	26	26
-	27	27
-	28	28
-	29	29
-	30	30
-	36	36
-	38	37
-	40	38
-	42	39
-	43	40
-	44	41
-	45	42
-	48	45
-	49	46
-	53	50
-	58	55
-	59	56
-	60	57
-	61	58
-	62	59
-	63	60
+net/minecraft/unused/packageinfo/PackageInfo6187	0	0
 net/minecraft/client/gui/widget/GridWidget	206	221
 	129	143
 	133	147
@@ -17327,7 +17301,34 @@ net/minecraft/client/gui/widget/GridWidget	206	221
 	120	134
 	125	139
 	126	140
-net/minecraft/unused/packageinfo/PackageInfo6187	0	0
+net/minecraft/client/gui/screen/WarningScreen	70	67
+	66	63
+	67	64
+	70	67
+	22	22
+	23	23
+	26	26
+	27	27
+	28	28
+	29	29
+	30	30
+	36	36
+	38	37
+	40	38
+	42	39
+	43	40
+	44	41
+	45	42
+	48	45
+	49	46
+	53	50
+	58	55
+	59	56
+	60	57
+	61	58
+	62	59
+	63	60
+net/minecraft/unused/packageinfo/PackageInfo6186	0	0
 net/minecraft/client/report/log/ReceivedMessage	103	162
 	66	115
 	67	116
@@ -17358,7 +17359,7 @@ net/minecraft/client/report/log/ReceivedMessage	103	162
 	57	98
 	61	107
 	62	108
-net/minecraft/unused/packageinfo/PackageInfo6186	0	0
+net/minecraft/unused/packageinfo/PackageInfo6185	0	0
 net/minecraft/client/network/ClientCommandSource	179	174
 	128	124
 	129	128
@@ -17429,20 +17430,6 @@ net/minecraft/server/integrated/IntegratedPlayerManager	48	43
 	43	39
 	29	29
 	30	30
-net/minecraft/unused/packageinfo/PackageInfo6185	0	0
-net/minecraft/client/render/entity/TridentEntityRenderer	41	40
-	32	34
-	34	35
-	20	23
-	36	36
-	21	24
-	37	37
-	22	25
-	41	40
-	26	28
-	28	29
-	29	30
-	31	32
 net/minecraft/client/render/entity/model/SkullEntityModel	63	75
 	33	48
 	37	52
@@ -17466,7 +17453,21 @@ net/minecraft/client/render/entity/model/SkullEntityModel	63	75
 	30	47
 	62	74
 	63	75
+net/minecraft/client/render/entity/TridentEntityRenderer	41	40
+	32	34
+	34	35
+	20	23
+	36	36
+	21	24
+	37	37
+	22	25
+	41	40
+	26	28
+	28	29
+	29	30
+	31	32
 net/minecraft/unused/packageinfo/PackageInfo6183	0	0
+net/minecraft/unused/packageinfo/PackageInfo6182	0	0
 net/minecraft/client/render/entity/model/ElytraEntityModel	100	112
 	22	41
 	23	42
@@ -17519,7 +17520,6 @@ net/minecraft/client/render/entity/model/ElytraEntityModel	100	112
 	98	110
 	99	111
 	100	112
-net/minecraft/unused/packageinfo/PackageInfo6182	0	0
 net/minecraft/unused/packageinfo/PackageInfo6181	0	0
 net/minecraft/client/gui/screen/OpenToLanScreen	127	126
 	37	38
@@ -17580,41 +17580,6 @@ net/minecraft/client/gui/screen/OpenToLanScreen	127	126
 	124	124
 	126	125
 	127	126
-net/minecraft/client/render/entity/model/QuadrupedEntityModel	75	111
-	68	105
-	69	106
-	71	107
-	72	108
-	73	109
-	74	110
-	75	111
-	23	63
-	24	64
-	25	65
-	26	66
-	27	67
-	28	68
-	29	69
-	30	70
-	33	73
-	34	74
-	36	75
-	37	77
-	38	77
-	39	78
-	41	80
-	42	82
-	43	82
-	44	83
-	46	85
-	47	85
-	48	86
-	49	87
-	50	88
-	51	89
-	53	90
-	58	95
-	63	100
 net/minecraft/client/sound/OggAudioStream	235	226
 	33	197
 	34	198
@@ -17730,6 +17695,41 @@ net/minecraft/client/sound/OggAudioStream	235	226
 	231	181
 	232	183
 	235	186
+net/minecraft/client/render/entity/model/QuadrupedEntityModel	75	111
+	68	105
+	69	106
+	71	107
+	72	108
+	73	109
+	74	110
+	75	111
+	23	63
+	24	64
+	25	65
+	26	66
+	27	67
+	28	68
+	29	69
+	30	70
+	33	73
+	34	74
+	36	75
+	37	77
+	38	77
+	39	78
+	41	80
+	42	82
+	43	82
+	44	83
+	46	85
+	47	85
+	48	86
+	49	87
+	50	88
+	51	89
+	53	90
+	58	95
+	63	100
 net/minecraft/client/network/AllowedAddressResolver	37	34
 	16	19
 	32	28
@@ -19040,26 +19040,6 @@ net/minecraft/client/render/entity/HorseEntityRenderer	35	35
 	29	30
 	30	31
 	31	32
-net/minecraft/client/gui/hud/spectator/SpectatorMenuCommand	0	0
-net/minecraft/client/gui/widget/LockButtonWidget	64	72
-	32	40
-	64	72
-	33	41
-	34	42
-	36	44
-	39	47
-	40	48
-	12	15
-	13	16
-	17	20
-	21	29
-	55	63
-	56	64
-	25	33
-	57	65
-	26	34
-	60	68
-	31	39
 net/minecraft/client/util/InputUtil	505	485
 	33	228
 	34	229
@@ -19277,6 +19257,26 @@ net/minecraft/client/util/InputUtil	505	485
 	502	222
 	503	223
 	505	225
+net/minecraft/client/gui/widget/LockButtonWidget	64	72
+	32	40
+	64	72
+	33	41
+	34	42
+	36	44
+	39	47
+	40	48
+	12	15
+	13	16
+	17	20
+	21	29
+	55	63
+	56	64
+	25	33
+	57	65
+	26	34
+	60	68
+	31	39
+net/minecraft/client/gui/hud/spectator/SpectatorMenuCommand	0	0
 net/minecraft/client/gui/screen/world/WorldCreator	311	304
 	257	247
 	259	251
@@ -19602,12 +19602,6 @@ net/minecraft/client/render/entity/BoatEntityRenderer	112	95
 net/minecraft/client/search/ReloadableSearchProvider	11	26
 	7	16
 	11	26
-net/minecraft/client/gui/hud/spectator/RootSpectatorCommandGroup	26	26
-	16	16
-	17	17
-	21	21
-	26	26
-	15	15
 net/minecraft/client/util/GlfwUtil	25	26
 	16	18
 	17	19
@@ -19616,6 +19610,12 @@ net/minecraft/client/util/GlfwUtil	25	26
 	25	26
 	12	14
 	13	15
+net/minecraft/client/gui/hud/spectator/RootSpectatorCommandGroup	26	26
+	16	16
+	17	17
+	21	21
+	26	26
+	15	15
 net/minecraft/client/render/block/entity/EnchantingTableBlockEntityRenderer	58	57
 	32	35
 	34	36
@@ -19651,6 +19651,93 @@ net/minecraft/client/render/DiffuseLighting	35	36
 	27	28
 	30	31
 	31	32
+net/minecraft/client/render/entity/model/EndermanEntityModel	142	165
+	128	152
+	129	153
+	130	154
+	131	155
+	132	156
+	134	157
+	135	158
+	136	159
+	139	162
+	140	163
+	141	164
+	142	165
+	18	55
+	19	56
+	22	59
+	23	60
+	24	61
+	26	62
+	27	63
+	28	64
+	29	64
+	32	66
+	33	66
+	34	66
+	37	67
+	38	68
+	39	68
+	40	68
+	42	70
+	43	72
+	44	72
+	45	73
+	47	75
+	48	77
+	49	77
+	50	78
+	52	80
+	53	81
+	54	81
+	55	81
+	57	83
+	58	85
+	59	85
+	60	86
+	63	88
+	68	93
+	70	94
+	72	95
+	73	96
+	74	97
+	75	98
+	77	99
+	78	100
+	80	101
+	81	102
+	82	103
+	83	104
+	85	105
+	86	106
+	87	107
+	89	110
+	90	111
+	92	114
+	93	115
+	95	118
+	96	119
+	98	122
+	99	123
+	101	126
+	102	127
+	104	130
+	105	131
+	107	134
+	108	135
+	111	138
+	112	139
+	113	140
+	114	141
+	115	142
+	118	145
+	119	146
+	121	147
+	122	148
+	124	149
+	125	150
+	127	151
 net/minecraft/client/render/debug/DebugRenderer	294	229
 	256	180
 	265	195
@@ -19756,93 +19843,6 @@ net/minecraft/client/render/debug/DebugRenderer	294	229
 	251	175
 	252	176
 	255	179
-net/minecraft/client/render/entity/model/EndermanEntityModel	142	165
-	128	152
-	129	153
-	130	154
-	131	155
-	132	156
-	134	157
-	135	158
-	136	159
-	139	162
-	140	163
-	141	164
-	142	165
-	18	55
-	19	56
-	22	59
-	23	60
-	24	61
-	26	62
-	27	63
-	28	64
-	29	64
-	32	66
-	33	66
-	34	66
-	37	67
-	38	68
-	39	68
-	40	68
-	42	70
-	43	72
-	44	72
-	45	73
-	47	75
-	48	77
-	49	77
-	50	78
-	52	80
-	53	81
-	54	81
-	55	81
-	57	83
-	58	85
-	59	85
-	60	86
-	63	88
-	68	93
-	70	94
-	72	95
-	73	96
-	74	97
-	75	98
-	77	99
-	78	100
-	80	101
-	81	102
-	82	103
-	83	104
-	85	105
-	86	106
-	87	107
-	89	110
-	90	111
-	92	114
-	93	115
-	95	118
-	96	119
-	98	122
-	99	123
-	101	126
-	102	127
-	104	130
-	105	131
-	107	134
-	108	135
-	111	138
-	112	139
-	113	140
-	114	141
-	115	142
-	118	145
-	119	146
-	121	147
-	122	148
-	124	149
-	125	150
-	127	151
 net/minecraft/client/gui/screen/world/EditGameRulesScreen	282	289
 	256	251
 	257	252
@@ -20486,6 +20486,7 @@ net/minecraft/client/gui/screen/ingame/HorseScreen	59	56
 	29	30
 	30	30
 	31	30
+net/minecraft/client/render/entity/animation/CamelAnimations	0	0
 net/minecraft/client/render/debug/VillageSectionsDebugRenderer	53	49
 	32	30
 	33	31
@@ -20506,7 +20507,6 @@ net/minecraft/client/render/debug/VillageSectionsDebugRenderer	53	49
 	25	23
 	28	26
 	29	27
-net/minecraft/client/render/entity/animation/CamelAnimations	0	0
 net/minecraft/client/particle/AbstractSlowingParticle	17	19
 	16	18
 	17	19
@@ -20518,6 +20518,7 @@ net/minecraft/client/particle/AbstractSlowingParticle	17	19
 	12	15
 	13	16
 	14	17
+net/minecraft/unused/packageinfo/PackageInfo6389	0	0
 net/minecraft/client/gui/screen/ingame/BrewingStandScreen	58	57
 	18	18
 	19	19
@@ -20544,7 +20545,10 @@ net/minecraft/client/gui/screen/ingame/BrewingStandScreen	58	57
 	54	53
 	55	54
 	58	57
-net/minecraft/unused/packageinfo/PackageInfo6389	0	0
+net/minecraft/client/render/FogShape	14	18
+	10	14
+	11	15
+	14	18
 net/minecraft/client/option/Perspective	28	30
 	16	18
 	17	19
@@ -20552,10 +20556,6 @@ net/minecraft/client/option/Perspective	28	30
 	24	26
 	28	30
 	15	17
-net/minecraft/client/render/FogShape	14	18
-	10	14
-	11	15
-	14	18
 net/minecraft/client/render/entity/model/AbstractZombieModel	15	17
 	8	11
 	9	12
@@ -20781,14 +20781,6 @@ net/minecraft/client/render/entity/EntityRenderers	194	206
 	190	61
 	191	62
 	194	66
-net/minecraft/client/gui/hud/spectator/SpectatorMenuState	29	26
-	16	15
-	17	16
-	18	17
-	21	20
-	22	22
-	25	21
-	29	26
 net/minecraft/client/gui/screen/option/TelemetryInfoScreen	129	118
 	128	117
 	129	118
@@ -20845,11 +20837,19 @@ net/minecraft/client/gui/screen/option/TelemetryInfoScreen	129	118
 	124	114
 	125	115
 	127	116
+net/minecraft/client/gui/hud/spectator/SpectatorMenuState	29	26
+	16	15
+	17	16
+	18	17
+	21	20
+	22	22
+	25	21
+	29	26
+net/minecraft/unused/packageinfo/PackageInfo6372	0	0
 net/minecraft/client/render/entity/ZoglinEntityRenderer	17	19
 	17	19
 	12	15
 	13	16
-net/minecraft/unused/packageinfo/PackageInfo6372	0	0
 net/minecraft/client/render/entity/model/CreeperEntityModel	73	99
 	66	93
 	67	94
@@ -23002,6 +23002,14 @@ net/minecraft/client/render/entity/VexEntityRenderer	30	27
 	27	27
 	28	27
 	30	27
+net/minecraft/client/render/entity/feature/WolfCollarFeatureRenderer	27	26
+	20	22
+	21	26
+	24	23
+	26	24
+	27	26
+	14	16
+	15	17
 com/mojang/blaze3d/platform/TextureUtil	145	138
 	130	124
 	131	125
@@ -23064,14 +23072,6 @@ com/mojang/blaze3d/platform/TextureUtil	145	138
 	124	119
 	126	120
 	127	121
-net/minecraft/client/render/entity/feature/WolfCollarFeatureRenderer	27	26
-	20	22
-	21	26
-	24	23
-	26	24
-	27	26
-	14	16
-	15	17
 net/minecraft/client/render/entity/model/ZombieVillagerEntityModel	118	99
 	18	19
 	20	20
@@ -24569,11 +24569,6 @@ net/minecraft/client/gui/screen/ingame/GrindstoneScreen	34	35
 	28	30
 	29	31
 	31	32
-net/minecraft/client/render/entity/StrayEntityRenderer	19	21
-	19	21
-	12	15
-	14	16
-	15	17
 net/minecraft/client/render/entity/model/ArmorStandArmorEntityModel	73	69
 	64	62
 	65	63
@@ -24616,6 +24611,11 @@ net/minecraft/client/render/entity/model/ArmorStandArmorEntityModel	73	69
 	60	59
 	61	60
 	62	61
+net/minecraft/client/render/entity/StrayEntityRenderer	19	21
+	19	21
+	12	15
+	14	16
+	15	17
 net/minecraft/client/render/entity/model/SinglePartEntityModel	61	60
 	32	32
 	33	33
@@ -25087,6 +25087,7 @@ net/minecraft/client/render/entity/PigEntityRenderer	20	23
 	15	17
 net/minecraft/client/gui/tab/Tab	17	19
 	17	19
+net/minecraft/unused/packageinfo/PackageInfo6191	0	0
 net/minecraft/client/particle/SquidInkParticle	63	65
 	10	15
 	11	16
@@ -25114,7 +25115,6 @@ net/minecraft/client/particle/SquidInkParticle	63	65
 	58	61
 	59	62
 	63	65
-net/minecraft/unused/packageinfo/PackageInfo6191	0	0
 net/minecraft/unused/packageinfo/PackageInfo6190	0	0
 net/minecraft/client/render/FpsSmoother	38	38
 	32	36
@@ -25200,6 +25200,7 @@ net/minecraft/client/gui/screen/GameMenuScreen	154	143
 	123	111
 	125	113
 com/mojang/blaze3d/systems/RenderCall	0	0
+net/minecraft/unused/packageinfo/PackageInfo6199	0	0
 net/minecraft/client/particle/DustColorTransitionParticle	49	62
 	32	43
 	36	47
@@ -25219,8 +25220,8 @@ net/minecraft/client/particle/DustColorTransitionParticle	49	62
 	29	40
 	30	41
 	31	42
-net/minecraft/unused/packageinfo/PackageInfo6199	0	0
 net/minecraft/unused/packageinfo/PackageInfo6198	0	0
+net/minecraft/unused/packageinfo/PackageInfo6197	0	0
 net/minecraft/client/gui/screen/world/SymlinkWarningScreen	94	73
 	64	47
 	65	47
@@ -25261,9 +25262,9 @@ net/minecraft/client/gui/screen/world/SymlinkWarningScreen	94	73
 	59	47
 	60	47
 	62	47
-net/minecraft/unused/packageinfo/PackageInfo6197	0	0
 net/minecraft/unused/packageinfo/PackageInfo6196	0	0
 net/minecraft/unused/packageinfo/PackageInfo6195	0	0
+net/minecraft/unused/packageinfo/PackageInfo6194	0	0
 net/minecraft/client/gui/screen/Realms32BitWarningScreen	31	33
 	18	19
 	19	20
@@ -25275,7 +25276,6 @@ net/minecraft/client/gui/screen/Realms32BitWarningScreen	31	33
 	29	31
 	30	32
 	31	33
-net/minecraft/unused/packageinfo/PackageInfo6194	0	0
 net/minecraft/client/render/entity/LightningEntityRenderer	128	118
 	128	118
 	15	18
@@ -26677,6 +26677,28 @@ net/minecraft/client/realms/dto/RealmsServerList	35	39
 net/minecraft/client/render/model/ModelBakeSettings	11	14
 	7	10
 	11	14
+net/minecraft/client/util/Clipboard	51	53
+	32	34
+	33	35
+	34	36
+	35	37
+	38	40
+	40	41
+	41	42
+	42	43
+	44	45
+	46	48
+	48	50
+	19	20
+	51	53
+	20	21
+	21	22
+	22	23
+	23	24
+	24	25
+	26	28
+	30	32
+	31	33
 net/minecraft/client/render/item/HeldItemRenderer	669	610
 	512	426
 	513	427
@@ -27000,28 +27022,6 @@ net/minecraft/client/render/item/HeldItemRenderer	669	610
 	509	423
 	510	424
 	511	425
-net/minecraft/client/util/Clipboard	51	53
-	32	34
-	33	35
-	34	36
-	35	37
-	38	40
-	40	41
-	41	42
-	42	43
-	44	45
-	46	48
-	48	50
-	19	20
-	51	53
-	20	21
-	21	22
-	22	23
-	23	24
-	24	25
-	26	28
-	30	32
-	31	33
 net/minecraft/client/util/telemetry/TelemetryManager	113	99
 	65	64
 	66	65
@@ -28381,6 +28381,46 @@ net/minecraft/client/resource/language/LanguageManager	88	82
 	61	57
 	62	58
 	63	59
+net/minecraft/client/render/entity/model/GoatEntityModel	69	122
+	65	118
+	66	119
+	67	120
+	69	122
+	14	55
+	15	56
+	18	59
+	19	60
+	21	61
+	22	63
+	23	64
+	24	66
+	25	69
+	26	71
+	28	73
+	29	75
+	30	75
+	31	76
+	33	78
+	34	80
+	35	80
+	36	81
+	38	83
+	39	85
+	40	85
+	41	86
+	43	88
+	44	90
+	45	90
+	46	90
+	47	91
+	50	93
+	51	96
+	52	101
+	53	106
+	55	111
+	60	115
+	61	116
+	63	117
 net/minecraft/client/particle/GlowParticle	181	161
 	134	57
 	135	58
@@ -28453,46 +28493,6 @@ net/minecraft/client/particle/GlowParticle	181	161
 	123	139
 	124	140
 	125	141
-net/minecraft/client/render/entity/model/GoatEntityModel	69	122
-	65	118
-	66	119
-	67	120
-	69	122
-	14	55
-	15	56
-	18	59
-	19	60
-	21	61
-	22	63
-	23	64
-	24	66
-	25	69
-	26	71
-	28	73
-	29	75
-	30	75
-	31	76
-	33	78
-	34	80
-	35	80
-	36	81
-	38	83
-	39	85
-	40	85
-	41	86
-	43	88
-	44	90
-	45	90
-	46	90
-	47	91
-	50	93
-	51	96
-	52	101
-	53	106
-	55	111
-	60	115
-	61	116
-	63	117
 net/minecraft/client/realms/gui/screen/RealmsClientOutdatedScreen	62	61
 	33	34
 	34	36
@@ -29402,6 +29402,30 @@ net/minecraft/client/particle/ShriekParticle	126	109
 	124	107
 	125	108
 	126	109
+net/minecraft/client/util/Session	93	98
+	33	35
+	66	71
+	37	39
+	70	75
+	41	43
+	45	47
+	79	85
+	49	51
+	84	89
+	53	55
+	85	90
+	24	26
+	25	27
+	89	94
+	26	28
+	27	29
+	59	64
+	28	30
+	60	65
+	29	31
+	61	66
+	93	98
+	30	32
 net/minecraft/client/gui/screen/world/WorldScreenOptionGrid	178	174
 	128	138
 	129	139
@@ -29478,30 +29502,6 @@ net/minecraft/client/gui/screen/world/WorldScreenOptionGrid	178	174
 	122	132
 	123	133
 	127	137
-net/minecraft/client/util/Session	93	98
-	33	35
-	66	71
-	37	39
-	70	75
-	41	43
-	45	47
-	79	85
-	49	51
-	84	89
-	53	55
-	85	90
-	24	26
-	25	27
-	89	94
-	26	28
-	27	29
-	59	64
-	28	30
-	60	65
-	29	31
-	61	66
-	93	98
-	30	32
 net/minecraft/client/realms/gui/screen/RealmsPlayerScreen	336	319
 	269	264
 	270	265
@@ -29648,6 +29648,12 @@ net/minecraft/client/realms/gui/screen/RealmsPlayerScreen	336	319
 	242	238
 	246	242
 	251	247
+net/minecraft/client/realms/dto/RealmsWorldResetDto	23	24
+	19	20
+	20	21
+	21	22
+	22	23
+	23	24
 net/minecraft/client/gui/widget/ScrollableWidget	175	194
 	129	141
 	133	145
@@ -29723,12 +29729,6 @@ net/minecraft/client/gui/widget/ScrollableWidget	175	194
 	118	130
 	121	133
 	125	137
-net/minecraft/client/realms/dto/RealmsWorldResetDto	23	24
-	19	20
-	20	21
-	21	22
-	22	23
-	23	24
 net/minecraft/client/render/entity/model/SpiderEntityModel	143	138
 	128	124
 	129	125
@@ -30411,6 +30411,14 @@ net/minecraft/client/network/ClientPlayerEntity	1256	1081
 	1021	889
 	1022	890
 	1023	891
+net/minecraft/client/realms/dto/RealmsNews	26	27
+	16	17
+	19	20
+	20	21
+	21	22
+	22	23
+	23	24
+	26	27
 net/minecraft/client/gui/screen/advancement/AdvancementTab	197	195
 	129	127
 	131	128
@@ -30503,14 +30511,6 @@ net/minecraft/client/gui/screen/advancement/AdvancementTab	197	195
 	122	120
 	123	121
 	124	122
-net/minecraft/client/realms/dto/RealmsNews	26	27
-	16	17
-	19	20
-	20	21
-	21	22
-	22	23
-	23	24
-	26	27
 net/minecraft/client/font/GlyphRenderer	86	98
 	77	89
 	78	90
@@ -30886,6 +30886,30 @@ net/minecraft/client/util/telemetry/WorldLoadedEvent	70	66
 	61	56
 	62	57
 	63	58
+net/minecraft/client/render/entity/animation/AnimationHelper	65	55
+	32	29
+	33	30
+	65	55
+	35	32
+	38	35
+	39	36
+	40	37
+	42	39
+	45	42
+	14	16
+	46	43
+	16	18
+	17	19
+	18	20
+	50	47
+	20	21
+	21	22
+	54	51
+	24	23
+	25	24
+	27	25
+	28	26
+	30	27
 net/minecraft/client/render/Frustum	76	87
 	66	77
 	70	81
@@ -30923,30 +30947,6 @@ net/minecraft/client/render/Frustum	76	87
 	61	72
 	62	73
 	63	74
-net/minecraft/client/render/entity/animation/AnimationHelper	65	55
-	32	29
-	33	30
-	65	55
-	35	32
-	38	35
-	39	36
-	40	37
-	42	39
-	45	42
-	14	16
-	46	43
-	16	18
-	17	19
-	18	20
-	50	47
-	20	21
-	21	22
-	54	51
-	24	23
-	25	24
-	27	25
-	28	26
-	30	27
 net/minecraft/client/realms/gui/screen/RealmsAcceptRejectButton	68	80
 	68	80
 	17	18
@@ -32403,55 +32403,6 @@ net/minecraft/client/texture/MissingSprite	55	59
 	28	30
 	29	31
 	30	32
-net/minecraft/client/particle/WaterSuspendParticle	113	109
-	64	65
-	68	68
-	71	71
-	74	74
-	75	75
-	76	76
-	77	77
-	14	14
-	15	15
-	16	16
-	18	17
-	19	18
-	20	19
-	85	45
-	22	20
-	86	46
-	23	21
-	24	22
-	90	49
-	27	25
-	91	50
-	28	26
-	92	51
-	29	27
-	93	52
-	94	53
-	31	28
-	95	54
-	32	29
-	96	55
-	33	30
-	35	31
-	36	32
-	37	33
-	104	101
-	41	37
-	105	102
-	109	105
-	110	106
-	111	107
-	48	86
-	112	108
-	49	87
-	113	109
-	53	90
-	54	91
-	55	92
-	63	64
 net/minecraft/client/realms/gui/screen/RealmsUploadScreen	428	403
 	84	76
 	85	77
@@ -32652,6 +32603,55 @@ net/minecraft/client/realms/gui/screen/RealmsUploadScreen	428	403
 	423	397
 	424	398
 	428	403
+net/minecraft/client/particle/WaterSuspendParticle	113	109
+	64	65
+	68	68
+	71	71
+	74	74
+	75	75
+	76	76
+	77	77
+	14	14
+	15	15
+	16	16
+	18	17
+	19	18
+	20	19
+	85	45
+	22	20
+	86	46
+	23	21
+	24	22
+	90	49
+	27	25
+	91	50
+	28	26
+	92	51
+	29	27
+	93	52
+	94	53
+	31	28
+	95	54
+	32	29
+	96	55
+	33	30
+	35	31
+	36	32
+	37	33
+	104	101
+	41	37
+	105	102
+	109	105
+	110	106
+	111	107
+	48	86
+	112	108
+	49	87
+	113	109
+	53	90
+	54	91
+	55	92
+	63	64
 net/minecraft/client/resource/metadata/AnimationResourceMetadata	68	58
 	32	31
 	33	32
@@ -32686,30 +32686,6 @@ net/minecraft/client/particle/ExplosionEmitterParticle	33	36
 	12	15
 	28	31
 	14	16
-net/minecraft/client/render/entity/ShulkerEntityRenderer	68	68
-	65	65
-	66	66
-	35	37
-	67	67
-	36	38
-	68	68
-	39	39
-	40	42
-	41	43
-	42	44
-	44	45
-	45	46
-	46	52
-	51	56
-	20	24
-	23	28
-	55	60
-	56	60
-	25	29
-	26	30
-	58	60
-	30	33
-	63	64
 net/minecraft/client/render/entity/model/DolphinEntityModel	93	116
 	21	58
 	22	59
@@ -32858,6 +32834,30 @@ net/minecraft/client/render/entity/model/RavagerEntityModel	158	142
 	154	138
 	155	139
 	158	142
+net/minecraft/client/render/entity/ShulkerEntityRenderer	68	68
+	65	65
+	66	66
+	35	37
+	67	67
+	36	38
+	68	68
+	39	39
+	40	42
+	41	43
+	42	44
+	44	45
+	45	46
+	46	52
+	51	56
+	20	24
+	23	28
+	55	60
+	56	60
+	25	29
+	26	30
+	58	60
+	30	33
+	63	64
 net/minecraft/client/gui/tooltip/BundleTooltipComponent	120	121
 	64	63
 	65	64
@@ -34848,6 +34848,8 @@ net/minecraft/client/render/entity/model/TadpoleEntityModel	59	54
 	29	30
 	30	31
 	31	32
+net/minecraft/client/input/KeyCodes	7	9
+	7	9
 net/minecraft/client/gui/screen/LevelLoadingScreen	132	117
 	128	33
 	129	34
@@ -34937,8 +34939,6 @@ net/minecraft/client/gui/screen/option/OnlineOptionsScreen	67	69
 	58	60
 	59	61
 	63	65
-net/minecraft/client/input/KeyCodes	7	9
-	7	9
 net/minecraft/client/render/entity/model/TintableCompositeModel	21	24
 	16	19
 	20	23
@@ -34946,8 +34946,6 @@ net/minecraft/client/render/entity/model/TintableCompositeModel	21	24
 	13	16
 	14	17
 	15	18
-net/minecraft/client/ClientBrandRetriever	12	13
-	12	13
 net/minecraft/client/render/chunk/ChunkOcclusionDataBuilder	162	160
 	128	125
 	130	128
@@ -35021,6 +35019,8 @@ net/minecraft/client/render/chunk/ChunkOcclusionDataBuilder	162	160
 	121	119
 	124	122
 	127	124
+net/minecraft/client/ClientBrandRetriever	12	13
+	12	13
 net/minecraft/client/item/ModelPredicateProvider	0	0
 net/minecraft/client/resource/DefaultClientResourcePackProvider	104	89
 	64	62
@@ -35371,6 +35371,24 @@ net/minecraft/client/util/telemetry/WorldSession	79	73
 	58	53
 	59	54
 	61	56
+net/minecraft/client/render/entity/IronGolemEntityRenderer	37	36
+	33	31
+	34	32
+	35	33
+	36	34
+	37	36
+	16	19
+	17	20
+	18	21
+	19	22
+	23	25
+	28	29
+	29	30
+	30	36
+net/minecraft/client/render/entity/TadpoleEntityRenderer	17	19
+	17	19
+	12	15
+	13	16
 net/minecraft/client/network/LanServerPinger	104	113
 	65	64
 	66	65
@@ -35415,24 +35433,6 @@ net/minecraft/client/network/LanServerPinger	104	113
 	55	57
 	58	60
 	62	63
-net/minecraft/client/render/entity/IronGolemEntityRenderer	37	36
-	33	31
-	34	32
-	35	33
-	36	34
-	37	36
-	16	19
-	17	20
-	18	21
-	19	22
-	23	25
-	28	29
-	29	30
-	30	36
-net/minecraft/client/render/entity/TadpoleEntityRenderer	17	19
-	17	19
-	12	15
-	13	16
 net/minecraft/client/realms/util/Errable	10	13
 	9	12
 	10	13
@@ -36482,9 +36482,9 @@ net/minecraft/client/texture/ResourceTexture	124	141
 	121	138
 	122	139
 	124	141
+net/minecraft/unused/packageinfo/PackageInfo6207	0	0
 net/minecraft/client/model/ModelData	10	12
 	10	12
-net/minecraft/unused/packageinfo/PackageInfo6207	0	0
 net/minecraft/unused/packageinfo/PackageInfo6206	0	0
 net/minecraft/unused/packageinfo/PackageInfo6205	0	0
 net/minecraft/unused/packageinfo/PackageInfo6203	0	0
@@ -38151,6 +38151,7 @@ net/minecraft/client/render/entity/model/ZombieEntityModel	13	15
 	9	12
 	13	15
 net/minecraft/unused/packageinfo/PackageInfo6221	0	0
+net/minecraft/unused/packageinfo/PackageInfo6220	0	0
 net/minecraft/client/util/ClientSamplerSource	51	48
 	33	34
 	34	35
@@ -38169,7 +38170,6 @@ net/minecraft/client/util/ClientSamplerSource	51	48
 	27	29
 	28	30
 	31	33
-net/minecraft/unused/packageinfo/PackageInfo6220	0	0
 net/minecraft/client/render/entity/feature/VillagerHeldItemFeatureRenderer	32	33
 	32	33
 	18	20
@@ -38362,6 +38362,7 @@ net/minecraft/client/option/GraphicsMode	44	42
 	31	30
 net/minecraft/unused/packageinfo/PackageInfo6224	0	0
 net/minecraft/unused/packageinfo/PackageInfo6223	0	0
+net/minecraft/unused/packageinfo/PackageInfo6222	0	0
 net/minecraft/client/render/entity/model/EntityModelLayers	229	231
 	193	195
 	225	227
@@ -38378,7 +38379,6 @@ net/minecraft/client/render/entity/model/EntityModelLayers	229	231
 	187	188
 	189	190
 	221	223
-net/minecraft/unused/packageinfo/PackageInfo6222	0	0
 net/minecraft/unused/packageinfo/PackageInfo7554	0	0
 net/minecraft/client/model/Model	18	28
 	18	28
@@ -38852,13 +38852,13 @@ net/minecraft/client/render/entity/model/HoglinEntityModel	146	180
 	123	163
 	125	164
 net/minecraft/unused/packageinfo/PackageInfo6218	0	0
+net/minecraft/unused/packageinfo/PackageInfo6217	0	0
 net/minecraft/client/particle/RedDustParticle	20	33
 	16	30
 	20	33
 	8	21
 	9	22
 	15	29
-net/minecraft/unused/packageinfo/PackageInfo6217	0	0
 net/minecraft/unused/packageinfo/PackageInfo6215	0	0
 net/minecraft/unused/packageinfo/PackageInfo6214	0	0
 net/minecraft/unused/packageinfo/PackageInfo6213	0	0
@@ -38982,6 +38982,7 @@ net/minecraft/client/render/SpriteTexturedVertexConsumer	63	96
 	27	29
 	62	79
 	63	96
+net/minecraft/unused/packageinfo/PackageInfo6219	0	0
 net/minecraft/client/render/entity/feature/FeatureRendererContext	0	0
 net/minecraft/client/texture/TextureStitcherCannotFitException	22	22
 	18	18
@@ -38991,16 +38992,6 @@ net/minecraft/client/texture/TextureStitcherCannotFitException	22	22
 	13	15
 	14	15
 	15	15
-net/minecraft/unused/packageinfo/PackageInfo6219	0	0
-net/minecraft/client/realms/dto/RegionPingResult	25	27
-	16	18
-	17	19
-	20	22
-	25	27
-	15	17
-net/minecraft/client/realms/exception/RealmsHttpException	6	10
-	5	9
-	6	10
 net/minecraft/client/util/VideoMode	135	135
 	129	127
 	131	130
@@ -39056,6 +39047,15 @@ net/minecraft/client/util/VideoMode	135	135
 	124	121
 	126	124
 	127	125
+net/minecraft/client/realms/exception/RealmsHttpException	6	10
+	5	9
+	6	10
+net/minecraft/client/realms/dto/RegionPingResult	25	27
+	16	18
+	17	19
+	20	22
+	25	27
+	15	17
 net/minecraft/client/gl/PostEffectProcessor	332	343
 	258	267
 	262	271
@@ -39387,67 +39387,6 @@ net/minecraft/client/render/entity/LlamaSpitEntityRenderer	44	39
 	28	28
 	29	29
 	30	30
-net/minecraft/client/realms/dto/RealmsWorldOptions	156	156
-	128	128
-	131	131
-	132	132
-	135	135
-	136	136
-	139	139
-	140	140
-	143	143
-	144	144
-	147	147
-	148	148
-	151	151
-	156	156
-	46	53
-	47	54
-	48	55
-	49	56
-	50	57
-	51	58
-	52	59
-	53	60
-	54	61
-	55	62
-	56	63
-	59	66
-	63	70
-	64	71
-	65	72
-	69	76
-	70	77
-	73	81
-	74	81
-	75	82
-	76	83
-	77	84
-	78	85
-	79	86
-	80	87
-	81	88
-	82	89
-	83	90
-	86	92
-	87	93
-	89	94
-	93	98
-	94	101
-	95	101
-	98	101
-	100	99
-	105	106
-	109	110
-	111	111
-	112	112
-	115	115
-	116	116
-	119	119
-	120	120
-	123	123
-	124	124
-	127	127
 net/minecraft/client/util/MonitorTracker	110	106
 	21	22
 	22	23
@@ -39509,6 +39448,67 @@ net/minecraft/client/util/MonitorTracker	110	106
 	107	103
 	108	104
 	110	106
+net/minecraft/client/realms/dto/RealmsWorldOptions	156	156
+	128	128
+	131	131
+	132	132
+	135	135
+	136	136
+	139	139
+	140	140
+	143	143
+	144	144
+	147	147
+	148	148
+	151	151
+	156	156
+	46	53
+	47	54
+	48	55
+	49	56
+	50	57
+	51	58
+	52	59
+	53	60
+	54	61
+	55	62
+	56	63
+	59	66
+	63	70
+	64	71
+	65	72
+	69	76
+	70	77
+	73	81
+	74	81
+	75	82
+	76	83
+	77	84
+	78	85
+	79	86
+	80	87
+	81	88
+	82	89
+	83	90
+	86	92
+	87	93
+	89	94
+	93	98
+	94	101
+	95	101
+	98	101
+	100	99
+	105	106
+	109	110
+	111	111
+	112	112
+	115	115
+	116	116
+	119	119
+	120	120
+	123	123
+	124	124
+	127	127
 net/minecraft/client/texture/atlas/Sprite	51	71
 	32	37
 	33	53
@@ -41604,58 +41604,6 @@ net/minecraft/client/realms/dto/PendingInvitesList	32	36
 	26	29
 	29	32
 	30	33
-net/minecraft/client/render/block/entity/SkullBlockEntityRenderer	116	113
-	38	41
-	39	42
-	40	43
-	41	44
-	42	45
-	43	46
-	44	47
-	45	48
-	48	51
-	50	52
-	51	53
-	52	54
-	53	55
-	54	56
-	55	57
-	56	58
-	57	59
-	61	63
-	62	64
-	66	67
-	68	68
-	69	69
-	70	70
-	71	71
-	72	72
-	74	73
-	75	74
-	76	75
-	78	76
-	79	77
-	82	89
-	84	90
-	85	91
-	87	93
-	88	94
-	89	94
-	91	94
-	95	97
-	97	98
-	98	99
-	99	100
-	101	101
-	102	102
-	105	105
-	106	106
-	107	113
-	110	107
-	111	108
-	112	109
-	114	110
-	116	111
 net/minecraft/client/render/entity/model/PiglinEntityModel	154	198
 	128	171
 	131	174
@@ -41740,68 +41688,64 @@ net/minecraft/client/render/entity/model/PiglinEntityModel	154	198
 	123	166
 	124	167
 	127	170
+net/minecraft/client/render/block/entity/SkullBlockEntityRenderer	116	113
+	38	41
+	39	42
+	40	43
+	41	44
+	42	45
+	43	46
+	44	47
+	45	48
+	48	51
+	50	52
+	51	53
+	52	54
+	53	55
+	54	56
+	55	57
+	56	58
+	57	59
+	61	63
+	62	64
+	66	67
+	68	68
+	69	69
+	70	70
+	71	71
+	72	72
+	74	73
+	75	74
+	76	75
+	78	76
+	79	77
+	82	89
+	84	90
+	85	91
+	87	93
+	88	94
+	89	94
+	91	94
+	95	97
+	97	98
+	98	99
+	99	100
+	101	101
+	102	102
+	105	105
+	106	106
+	107	113
+	110	107
+	111	108
+	112	109
+	114	110
+	116	111
 net/minecraft/client/network/Address	33	36
 	33	36
 	18	21
 	23	26
 	28	31
 	15	18
-net/minecraft/client/realms/RealmsConnection	123	122
-	33	35
-	34	36
-	37	39
-	38	40
-	39	41
-	40	42
-	42	43
-	43	44
-	44	45
-	47	47
-	49	50
-	51	51
-	52	52
-	55	55
-	57	56
-	58	57
-	61	62
-	62	64
-	63	65
-	65	68
-	67	69
-	68	70
-	71	73
-	73	74
-	74	75
-	77	78
-	78	79
-	79	80
-	80	81
-	81	82
-	82	83
-	83	84
-	85	85
-	86	86
-	89	89
-	90	90
-	92	91
-	93	92
-	94	93
-	97	97
-	98	99
-	100	101
-	101	103
-	102	104
-	105	107
-	107	108
-	108	108
-	109	109
-	110	110
-	113	112
-	116	115
-	117	116
-	118	117
-	120	119
-	123	122
 net/minecraft/client/render/entity/feature/ArmorFeatureRenderer	142	138
 	129	125
 	130	126
@@ -41863,6 +41807,62 @@ net/minecraft/client/render/entity/feature/ArmorFeatureRenderer	142	138
 	124	120
 	125	121
 	126	122
+net/minecraft/client/realms/RealmsConnection	123	122
+	33	35
+	34	36
+	37	39
+	38	40
+	39	41
+	40	42
+	42	43
+	43	44
+	44	45
+	47	47
+	49	50
+	51	51
+	52	52
+	55	55
+	57	56
+	58	57
+	61	62
+	62	64
+	63	65
+	65	68
+	67	69
+	68	70
+	71	73
+	73	74
+	74	75
+	77	78
+	78	79
+	79	80
+	80	81
+	81	82
+	82	83
+	83	84
+	85	85
+	86	86
+	89	89
+	90	90
+	92	91
+	93	92
+	94	93
+	97	97
+	98	99
+	100	101
+	101	103
+	102	104
+	105	107
+	107	108
+	108	108
+	109	109
+	110	110
+	113	112
+	116	115
+	117	116
+	118	117
+	120	119
+	123	122
 net/minecraft/client/tutorial/TutorialStepHandler	33	36
 	33	36
 	18	21
@@ -44011,6 +44011,26 @@ net/minecraft/client/gui/hud/SubtitlesHud	143	147
 	124	128
 	125	129
 	126	130
+net/minecraft/client/gui/navigation/NavigationDirection	66	69
+	32	34
+	33	35
+	66	69
+	12	14
+	44	49
+	45	49
+	15	17
+	47	49
+	16	18
+	17	19
+	22	24
+	23	25
+	24	26
+	25	27
+	26	28
+	58	62
+	59	62
+	61	62
+	31	33
 net/minecraft/client/QuickPlayLogger	118	121
 	64	55
 	66	59
@@ -44052,26 +44072,6 @@ net/minecraft/client/QuickPlayLogger	118	121
 	59	54
 	60	79
 	61	81
-net/minecraft/client/gui/navigation/NavigationDirection	66	69
-	32	34
-	33	35
-	66	69
-	12	14
-	44	49
-	45	49
-	15	17
-	47	49
-	16	18
-	17	19
-	22	24
-	23	25
-	24	26
-	25	27
-	26	28
-	58	62
-	59	62
-	61	62
-	31	33
 net/minecraft/client/resource/language/LanguageDefinition	24	22
 	17	13
 	18	14
@@ -44263,6 +44263,38 @@ net/minecraft/client/realms/dto/RealmsServerAddress	29	31
 	25	27
 	26	28
 	29	31
+net/minecraft/client/realms/task/OpenServerTask	72	74
+	64	65
+	65	66
+	66	67
+	68	70
+	69	71
+	72	74
+	24	26
+	25	27
+	26	28
+	27	29
+	28	30
+	29	31
+	33	34
+	34	35
+	36	37
+	37	38
+	38	39
+	42	43
+	43	44
+	44	45
+	45	46
+	46	47
+	49	50
+	51	51
+	52	52
+	54	54
+	56	56
+	59	59
+	60	60
+	61	61
+	63	64
 net/minecraft/client/font/FontStorage	190	185
 	129	126
 	130	126
@@ -44340,38 +44372,6 @@ net/minecraft/client/font/FontStorage	190	185
 	122	117
 	124	120
 	125	121
-net/minecraft/client/realms/task/OpenServerTask	72	74
-	64	65
-	65	66
-	66	67
-	68	70
-	69	71
-	72	74
-	24	26
-	25	27
-	26	28
-	27	29
-	28	30
-	29	31
-	33	34
-	34	35
-	36	37
-	37	38
-	38	39
-	42	43
-	43	44
-	44	45
-	45	46
-	46	47
-	49	50
-	51	51
-	52	52
-	54	54
-	56	56
-	59	59
-	60	60
-	61	61
-	63	64
 net/minecraft/client/gui/screen/ChatInputSuggestor	544	584
 	513	554
 	514	555
@@ -44818,6 +44818,15 @@ net/minecraft/client/gui/screen/recipebook/RecipeResultCollection	121	124
 	121	124
 	58	60
 	61	63
+net/minecraft/client/report/AbuseReportReason	41	40
+	33	32
+	37	36
+	41	40
+	26	25
+	27	26
+	28	27
+	29	28
+	30	29
 net/minecraft/client/render/entity/StriderEntityRenderer	38	40
 	32	35
 	17	19
@@ -44829,15 +44838,6 @@ net/minecraft/client/render/entity/StriderEntityRenderer	38	40
 	29	32
 	30	33
 	15	18
-net/minecraft/client/report/AbuseReportReason	41	40
-	33	32
-	37	36
-	41	40
-	26	25
-	27	26
-	28	27
-	29	28
-	30	29
 net/minecraft/client/util/ModelIdentifier	67	59
 	34	32
 	67	59
@@ -44924,11 +44924,11 @@ net/minecraft/client/realms/task/SwitchSlotTask	51	53
 	28	28
 	30	30
 	31	31
+net/minecraft/client/gui/screen/narration/NarrationPart	0	0
 net/minecraft/client/gui/navigation/GuiNavigation	23	33
 	16	25
 	23	17
 	9	33
-net/minecraft/client/gui/screen/narration/NarrationPart	0	0
 net/minecraft/client/gui/screen/option/SoundOptionsScreen	50	52
 	32	33
 	33	34
@@ -45627,6 +45627,76 @@ net/minecraft/client/render/RenderLayers	381	374
 	381	374
 net/minecraft/unused/packageinfo/PackageInfo6272	0	0
 net/minecraft/unused/packageinfo/PackageInfo6270	0	0
+net/minecraft/client/toast/ToastManager	162	158
+	130	132
+	131	133
+	132	134
+	133	134
+	135	134
+	140	138
+	142	139
+	143	140
+	144	141
+	147	144
+	148	145
+	151	148
+	152	149
+	153	150
+	26	26
+	154	151
+	27	27
+	156	152
+	157	153
+	30	30
+	158	154
+	31	54
+	159	155
+	34	31
+	162	158
+	35	32
+	36	33
+	37	34
+	38	35
+	40	37
+	43	40
+	44	41
+	45	42
+	46	43
+	47	44
+	48	45
+	49	46
+	50	47
+	52	49
+	55	54
+	58	57
+	59	58
+	60	60
+	61	61
+	62	62
+	63	63
+	64	64
+	68	69
+	72	73
+	78	78
+	79	79
+	80	80
+	83	84
+	84	85
+	85	86
+	88	90
+	92	94
+	93	95
+	94	96
+	95	97
+	98	100
+	99	101
+	102	104
+	106	108
+	120	122
+	121	123
+	122	124
+	123	125
+	126	128
 net/minecraft/client/render/entity/feature/StuckStingersFeatureRenderer	68	75
 	64	63
 	67	68
@@ -45786,77 +45856,6 @@ net/minecraft/client/sound/SoundManager	313	327
 	249	174
 	252	177
 	253	178
-net/minecraft/client/toast/ToastManager	162	158
-	130	132
-	131	133
-	132	134
-	133	134
-	135	134
-	140	138
-	142	139
-	143	140
-	144	141
-	147	144
-	148	145
-	151	148
-	152	149
-	153	150
-	26	26
-	154	151
-	27	27
-	156	152
-	157	153
-	30	30
-	158	154
-	31	54
-	159	155
-	34	31
-	162	158
-	35	32
-	36	33
-	37	34
-	38	35
-	40	37
-	43	40
-	44	41
-	45	42
-	46	43
-	47	44
-	48	45
-	49	46
-	50	47
-	52	49
-	55	54
-	58	57
-	59	58
-	60	60
-	61	61
-	62	62
-	63	63
-	64	64
-	68	69
-	72	73
-	78	78
-	79	79
-	80	80
-	83	84
-	84	85
-	85	86
-	88	90
-	92	94
-	93	95
-	94	96
-	95	97
-	98	100
-	99	101
-	102	104
-	106	108
-	120	122
-	121	123
-	122	124
-	123	125
-	126	128
-com/mojang/blaze3d/platform/GlConst	0	0
 net/minecraft/client/render/model/BakedQuad	42	45
 	16	19
 	17	20
@@ -45870,6 +45869,7 @@ net/minecraft/client/render/model/BakedQuad	42	45
 	14	17
 	30	33
 	15	18
+com/mojang/blaze3d/platform/GlConst	0	0
 net/minecraft/client/realms/util/RealmsUtil	77	70
 	33	35
 	65	56
@@ -46039,6 +46039,15 @@ net/minecraft/client/resource/metadata/AnimationFrameResourceMetadata	23	26
 	11	14
 	14	17
 	15	18
+net/minecraft/client/recipebook/RecipeBookGroup	69	68
+	64	62
+	69	68
+	56	54
+	57	55
+	60	58
+	61	59
+	62	60
+	63	61
 net/minecraft/client/gui/tooltip/Tooltip	49	52
 	49	52
 	36	38
@@ -46052,15 +46061,6 @@ net/minecraft/client/gui/tooltip/Tooltip	49	52
 	43	45
 	45	48
 	31	33
-net/minecraft/client/recipebook/RecipeBookGroup	69	68
-	64	62
-	69	68
-	56	54
-	57	55
-	60	58
-	61	59
-	62	60
-	63	61
 net/minecraft/client/render/entity/feature/HorseArmorFeatureRenderer	53	53
 	32	32
 	33	33
@@ -46502,28 +46502,6 @@ net/minecraft/client/render/entity/PandaEntityRenderer	113	99
 	110	99
 	111	99
 	113	99
-net/minecraft/client/gui/screen/ingame/SignEditScreen	65	60
-	32	33
-	33	34
-	65	60
-	37	38
-	39	39
-	40	40
-	41	41
-	43	43
-	47	47
-	48	56
-	51	48
-	53	49
-	54	50
-	56	51
-	25	27
-	57	52
-	26	28
-	59	53
-	60	54
-	61	56
-	30	32
 net/minecraft/client/option/GameOptions	1726	1695
 	1031	745
 	1032	745
@@ -47118,6 +47096,28 @@ net/minecraft/client/option/GameOptions	1726	1695
 	1011	735
 	1018	739
 	1022	1121
+net/minecraft/client/gui/screen/ingame/SignEditScreen	65	60
+	32	33
+	33	34
+	65	60
+	37	38
+	39	39
+	40	40
+	41	41
+	43	43
+	47	47
+	48	56
+	51	48
+	53	49
+	54	50
+	56	51
+	25	27
+	57	52
+	26	28
+	59	53
+	60	54
+	61	56
+	30	32
 net/minecraft/client/option/ParticlesMode	35	34
 	35	34
 	20	21
@@ -47159,6 +47159,30 @@ net/minecraft/client/gui/widget/AbstractTextWidget	30	33
 	13	16
 	14	17
 	30	33
+net/minecraft/client/realms/task/CloseServerTask	53	56
+	33	34
+	34	35
+	35	36
+	36	37
+	37	38
+	40	41
+	41	42
+	42	43
+	44	46
+	45	47
+	46	48
+	47	49
+	49	52
+	18	20
+	50	53
+	19	21
+	20	22
+	53	56
+	24	25
+	25	26
+	27	28
+	28	29
+	29	30
 net/minecraft/client/gui/widget/SimplePositioningWidget	126	118
 	64	62
 	66	64
@@ -47205,30 +47229,6 @@ net/minecraft/client/gui/widget/SimplePositioningWidget	126	118
 	125	117
 	126	118
 	63	61
-net/minecraft/client/realms/task/CloseServerTask	53	56
-	33	34
-	34	35
-	35	36
-	36	37
-	37	38
-	40	41
-	41	42
-	42	43
-	44	46
-	45	47
-	46	48
-	47	49
-	49	52
-	18	20
-	50	53
-	19	21
-	20	22
-	53	56
-	24	25
-	25	26
-	27	28
-	28	29
-	29	30
 net/minecraft/client/render/block/entity/ShulkerBoxBlockEntityRenderer	64	58
 	64	58
 	23	25
@@ -47627,6 +47627,45 @@ net/minecraft/client/realms/RealmsClientConfig	19	22
 	17	20
 	19	22
 	12	15
+net/minecraft/client/resource/ResourceReloadLogger	108	110
+	64	68
+	66	69
+	67	70
+	68	71
+	69	72
+	71	74
+	84	99
+	85	100
+	86	101
+	24	24
+	25	25
+	89	104
+	26	26
+	90	105
+	91	106
+	28	29
+	29	32
+	93	107
+	94	108
+	32	35
+	96	110
+	33	36
+	34	37
+	37	40
+	38	41
+	41	44
+	42	45
+	107	86
+	44	47
+	108	87
+	46	49
+	49	52
+	50	53
+	51	54
+	52	55
+	54	57
+	60	64
+	61	65
 net/minecraft/client/render/entity/model/PolarBearEntityModel	79	74
 	64	60
 	65	61
@@ -47674,45 +47713,6 @@ net/minecraft/client/render/entity/model/PolarBearEntityModel	79	74
 	60	57
 	61	58
 	63	59
-net/minecraft/client/resource/ResourceReloadLogger	108	110
-	64	68
-	66	69
-	67	70
-	68	71
-	69	72
-	71	74
-	84	99
-	85	100
-	86	101
-	24	24
-	25	25
-	89	104
-	26	26
-	90	105
-	91	106
-	28	29
-	29	32
-	93	107
-	94	108
-	32	35
-	96	110
-	33	36
-	34	37
-	37	40
-	38	41
-	41	44
-	42	45
-	107	86
-	44	47
-	108	87
-	46	49
-	49	52
-	50	53
-	51	54
-	52	55
-	54	57
-	60	64
-	61	65
 net/minecraft/client/render/entity/DonkeyEntityRenderer	25	25
 	20	21
 	21	22
@@ -48410,6 +48410,7 @@ net/minecraft/client/realms/gui/screen/RealmsPendingInvitesScreen	310	306
 	253	292
 net/minecraft/unused/packageinfo/PackageInfo6242	0	0
 net/minecraft/unused/packageinfo/PackageInfo6241	0	0
+net/minecraft/unused/packageinfo/PackageInfo6240	0	0
 net/minecraft/client/gl/ShaderProgram	561	565
 	512	518
 	513	521
@@ -48660,7 +48661,7 @@ net/minecraft/client/gl/ShaderProgram	561	565
 	505	511
 	506	512
 	508	515
-net/minecraft/unused/packageinfo/PackageInfo6240	0	0
+net/minecraft/client/render/entity/model/ModelWithArms	0	0
 net/minecraft/client/render/block/entity/MobSpawnerBlockEntityRenderer	40	47
 	32	36
 	33	37
@@ -48704,7 +48705,6 @@ net/minecraft/client/render/entity/TntEntityRenderer	49	47
 	29	31
 	30	32
 	31	33
-net/minecraft/client/render/entity/model/ModelWithArms	0	0
 net/minecraft/client/report/log/ChatLogEntry	32	36
 	32	36
 	22	27
@@ -48934,6 +48934,48 @@ net/minecraft/client/gui/screen/option/MouseOptionsScreen	58	60
 	29	32
 	30	33
 net/minecraft/unused/packageinfo/PackageInfo7575	0	0
+net/minecraft/client/particle/DragonBreathParticle	100	90
+	66	57
+	68	58
+	69	59
+	70	60
+	73	63
+	74	64
+	76	65
+	77	66
+	79	69
+	83	73
+	24	23
+	88	78
+	25	24
+	26	25
+	27	26
+	28	27
+	30	28
+	31	29
+	95	86
+	32	30
+	96	87
+	34	31
+	36	32
+	100	90
+	37	33
+	38	34
+	40	35
+	41	36
+	42	37
+	46	41
+	47	42
+	48	43
+	50	44
+	51	45
+	52	69
+	55	47
+	57	48
+	58	49
+	59	50
+	62	53
+	63	54
 net/minecraft/client/gui/CubeMapRenderer	131	130
 	128	126
 	129	127
@@ -49012,48 +49054,6 @@ net/minecraft/client/gui/CubeMapRenderer	131	130
 	123	120
 	124	121
 	127	124
-net/minecraft/client/particle/DragonBreathParticle	100	90
-	66	57
-	68	58
-	69	59
-	70	60
-	73	63
-	74	64
-	76	65
-	77	66
-	79	69
-	83	73
-	24	23
-	88	78
-	25	24
-	26	25
-	27	26
-	28	27
-	30	28
-	31	29
-	95	86
-	32	30
-	96	87
-	34	31
-	36	32
-	100	90
-	37	33
-	38	34
-	40	35
-	41	36
-	42	37
-	46	41
-	47	42
-	48	43
-	50	44
-	51	45
-	52	69
-	55	47
-	57	48
-	58	49
-	59	50
-	62	53
-	63	54
 net/minecraft/client/gui/screen/ingame/SmithingScreen	171	159
 	128	117
 	131	121
@@ -49318,6 +49318,7 @@ net/minecraft/client/realms/dto/RealmsServer	315	308
 	251	243
 	252	244
 	253	245
+net/minecraft/unused/packageinfo/PackageInfo7562	0	0
 net/minecraft/client/render/entity/PufferfishEntityRenderer	57	54
 	32	31
 	37	35
@@ -49338,34 +49339,8 @@ net/minecraft/client/render/entity/PufferfishEntityRenderer	57	54
 	26	26
 	27	27
 	28	28
-net/minecraft/unused/packageinfo/PackageInfo7562	0	0
 net/minecraft/unused/packageinfo/PackageInfo6232	0	0
 net/minecraft/unused/packageinfo/PackageInfo6231	0	0
-net/minecraft/client/particle/EmotionParticle	59	61
-	36	55
-	37	56
-	9	12
-	41	59
-	10	13
-	42	60
-	11	14
-	43	61
-	12	15
-	13	16
-	14	17
-	15	18
-	17	19
-	18	20
-	19	21
-	51	39
-	20	22
-	52	40
-	24	26
-	56	43
-	57	44
-	58	45
-	59	46
-	29	31
 net/minecraft/client/render/entity/model/PlayerEntityModel	207	263
 	42	116
 	43	117
@@ -49477,6 +49452,31 @@ net/minecraft/client/render/entity/model/PlayerEntityModel	207	263
 	202	258
 	204	260
 	207	263
+net/minecraft/client/particle/EmotionParticle	59	61
+	36	55
+	37	56
+	9	12
+	41	59
+	10	13
+	42	60
+	11	14
+	43	61
+	12	15
+	13	16
+	14	17
+	15	18
+	17	19
+	18	20
+	19	21
+	51	39
+	20	22
+	52	40
+	24	26
+	56	43
+	57	44
+	58	45
+	59	46
+	29	31
 net/minecraft/client/gui/screen/option/ControlsListWidget	212	226
 	128	147
 	129	150
@@ -51906,6 +51906,7 @@ net/minecraft/client/render/entity/feature/VillagerResourceMetadata	39	42
 net/minecraft/unused/packageinfo/PackageInfo6236	0	0
 net/minecraft/unused/packageinfo/PackageInfo6235	0	0
 net/minecraft/client/texture/DynamicTexture	0	0
+net/minecraft/unused/packageinfo/PackageInfo6233	0	0
 net/minecraft/client/realms/RealmsObjectSelectionList	73	71
 	68	66
 	37	37
@@ -51928,7 +51929,6 @@ net/minecraft/client/realms/RealmsObjectSelectionList	73	71
 	58	57
 	31	32
 	63	62
-net/minecraft/unused/packageinfo/PackageInfo6233	0	0
 net/minecraft/client/render/block/entity/BlockEntityRenderer	20	23
 	16	19
 	20	23
@@ -52424,26 +52424,6 @@ net/minecraft/client/gui/screen/DialogScreen	81	80
 	57	55
 	59	57
 	63	61
-net/minecraft/client/render/entity/CatEntityRenderer	55	48
-	32	29
-	33	30
-	34	31
-	38	34
-	40	35
-	41	36
-	42	37
-	43	38
-	46	39
-	47	41
-	48	41
-	49	42
-	50	43
-	51	44
-	20	20
-	22	21
-	23	22
-	55	48
-	27	25
 net/minecraft/client/util/math/Rect2i	73	74
 	64	65
 	65	66
@@ -52479,6 +52459,26 @@ net/minecraft/client/util/math/Rect2i	73	74
 	56	57
 	60	61
 	61	62
+net/minecraft/client/render/entity/CatEntityRenderer	55	48
+	32	29
+	33	30
+	34	31
+	38	34
+	40	35
+	41	36
+	42	37
+	43	38
+	46	39
+	47	41
+	48	41
+	49	42
+	50	43
+	51	44
+	20	20
+	22	21
+	23	22
+	55	48
+	27	25
 net/minecraft/client/particle/EnchantGlyphParticle	115	109
 	12	15
 	14	16
@@ -53576,7 +53576,6 @@ net/minecraft/client/render/entity/model/EntityModelLoader	25	27
 	15	17
 net/minecraft/unused/packageinfo/PackageInfo6259	0	0
 net/minecraft/unused/packageinfo/PackageInfo6258	0	0
-net/minecraft/client/gui/tooltip/TooltipPositioner	0	0
 net/minecraft/client/render/BufferBuilder	492	532
 	48	68
 	49	69
@@ -53808,6 +53807,7 @@ net/minecraft/client/render/BufferBuilder	492	532
 	484	502
 	488	506
 	492	514
+net/minecraft/client/gui/tooltip/TooltipPositioner	0	0
 net/minecraft/client/render/entity/SquidEntityRenderer	36	35
 	32	32
 	19	21
@@ -54779,49 +54779,6 @@ net/minecraft/client/particle/CurrentDownParticle	69	68
 	56	55
 	62	62
 	63	63
-net/minecraft/client/render/OverlayVertexConsumer	108	104
-	64	56
-	66	57
-	67	65
-	68	66
-	72	70
-	73	71
-	74	72
-	75	73
-	81	78
-	87	83
-	92	88
-	93	89
-	94	90
-	32	28
-	33	29
-	34	30
-	35	31
-	99	95
-	36	32
-	100	96
-	37	33
-	40	36
-	41	37
-	105	101
-	42	38
-	106	102
-	43	39
-	107	103
-	44	40
-	108	104
-	45	41
-	46	42
-	47	43
-	48	44
-	49	45
-	53	49
-	54	50
-	56	51
-	59	52
-	60	53
-	61	54
-	63	55
 net/minecraft/client/util/Window	461	455
 	61	65
 	62	66
@@ -55053,6 +55010,49 @@ net/minecraft/client/util/Window	461	455
 	456	449
 	460	454
 	461	455
+net/minecraft/client/render/OverlayVertexConsumer	108	104
+	64	56
+	66	57
+	67	65
+	68	66
+	72	70
+	73	71
+	74	72
+	75	73
+	81	78
+	87	83
+	92	88
+	93	89
+	94	90
+	32	28
+	33	29
+	34	30
+	35	31
+	99	95
+	36	32
+	100	96
+	37	33
+	40	36
+	41	37
+	105	101
+	42	38
+	106	102
+	43	39
+	107	103
+	44	40
+	108	104
+	45	41
+	46	42
+	47	43
+	48	44
+	49	45
+	53	49
+	54	50
+	56	51
+	59	52
+	60	53
+	61	54
+	63	55
 net/minecraft/client/gui/screen/option/AccessibilityOptionsScreen	57	72
 	16	19
 	17	20
@@ -55224,6 +55224,20 @@ com/mojang/blaze3d/systems/VertexSorter	28	32
 	27	31
 	12	15
 	28	32
+net/minecraft/client/realms/dto/WorldTemplate	40	42
+	32	33
+	33	34
+	34	35
+	35	36
+	36	37
+	37	38
+	38	39
+	40	42
+	26	26
+	28	29
+	29	30
+	30	31
+	31	32
 net/minecraft/client/gui/screen/world/CreateWorldScreen	748	824
 	512	311
 	513	312
@@ -55582,20 +55596,6 @@ net/minecraft/client/gui/screen/world/CreateWorldScreen	748	824
 	506	305
 	507	306
 	508	307
-net/minecraft/client/realms/dto/WorldTemplate	40	42
-	32	33
-	33	34
-	34	35
-	35	36
-	36	37
-	37	38
-	38	39
-	40	42
-	26	26
-	28	29
-	29	30
-	30	31
-	31	32
 net/minecraft/client/render/entity/model/BatEntityModel	125	140
 	23	61
 	24	62
@@ -55943,30 +55943,6 @@ net/minecraft/client/gui/screen/multiplayer/MultiplayerServerListWidget	501	493
 	495	487
 	500	492
 	501	493
-net/minecraft/client/particle/SweepAttackParticle	55	55
-	33	34
-	34	35
-	35	39
-	38	37
-	39	39
-	11	13
-	43	43
-	12	14
-	13	15
-	14	16
-	15	17
-	16	18
-	17	19
-	18	20
-	50	51
-	19	21
-	51	52
-	20	22
-	55	55
-	24	26
-	29	31
-	30	32
-	31	33
 net/minecraft/client/render/entity/model/DragonHeadEntityModel	67	82
 	65	80
 	66	81
@@ -55999,6 +55975,30 @@ net/minecraft/client/render/entity/model/DragonHeadEntityModel	67	82
 	61	77
 	62	78
 	63	79
+net/minecraft/client/particle/SweepAttackParticle	55	55
+	33	34
+	34	35
+	35	39
+	38	37
+	39	39
+	11	13
+	43	43
+	12	14
+	13	15
+	14	16
+	15	17
+	16	18
+	17	19
+	18	20
+	50	51
+	19	21
+	51	52
+	20	22
+	55	55
+	24	26
+	29	31
+	30	32
+	31	33
 net/minecraft/client/render/entity/ElderGuardianEntityRenderer	23	25
 	18	20
 	19	21
@@ -56289,7 +56289,6 @@ net/minecraft/client/particle/FireworksSparkParticle	370	378
 	253	335
 	254	336
 	255	337
-net/minecraft/client/gui/hud/spectator/SpectatorMenuCommandGroup	0	0
 net/minecraft/client/gui/screen/option/VideoOptionsScreen	198	200
 	129	135
 	130	136
@@ -56387,6 +56386,7 @@ net/minecraft/client/gui/screen/option/VideoOptionsScreen	198	200
 	122	129
 	123	130
 	127	134
+net/minecraft/client/gui/hud/spectator/SpectatorMenuCommandGroup	0	0
 net/minecraft/client/item/ModelPredicateProviderRegistry	266	241
 	256	71
 	257	72
@@ -57863,8 +57863,8 @@ net/minecraft/client/gui/hud/SpectatorHud	157	144
 	122	109
 	126	113
 	127	114
-net/minecraft/client/gui/hud/ChatHudLine	0	0
 net/minecraft/client/realms/UploadStatus	0	0
+net/minecraft/client/gui/hud/ChatHudLine	0	0
 net/minecraft/client/render/model/json/ModelElementFace	55	54
 	34	35
 	36	36
@@ -57908,6 +57908,7 @@ net/minecraft/client/particle/ReversePortalParticle	49	48
 	27	28
 	28	35
 	31	30
+net/minecraft/client/render/model/json/ModelRotation	0	0
 net/minecraft/client/render/entity/feature/ElytraFeatureRenderer	64	63
 	64	63
 	34	36
@@ -57931,7 +57932,6 @@ net/minecraft/client/render/entity/feature/ElytraFeatureRenderer	64	63
 	61	60
 	30	31
 	63	61
-net/minecraft/client/render/model/json/ModelRotation	0	0
 net/minecraft/client/sound/SoundExecutor	63	60
 	32	30
 	37	34
@@ -58281,6 +58281,25 @@ net/minecraft/server/integrated/IntegratedServerLoader	318	351
 	252	293
 	253	293
 	254	294
+net/minecraft/client/report/ReporterEnvironment	66	61
+	65	60
+	34	37
+	66	61
+	35	37
+	37	37
+	42	42
+	43	42
+	13	16
+	45	42
+	17	20
+	49	46
+	51	47
+	52	48
+	21	24
+	53	49
+	56	52
+	25	28
+	29	32
 net/minecraft/client/render/entity/MobEntityRenderer	122	117
 	22	25
 	23	26
@@ -58342,25 +58361,6 @@ net/minecraft/client/render/entity/MobEntityRenderer	122	117
 	120	115
 	121	116
 	122	117
-net/minecraft/client/report/ReporterEnvironment	66	61
-	65	60
-	34	37
-	66	61
-	35	37
-	37	37
-	42	42
-	43	42
-	13	16
-	45	42
-	17	20
-	49	46
-	51	47
-	52	48
-	21	24
-	53	49
-	56	52
-	25	28
-	29	32
 net/minecraft/client/gl/JsonEffectShaderProgram	453	439
 	74	55
 	75	56
@@ -58737,7 +58737,6 @@ net/minecraft/client/render/block/entity/HangingSignBlockEntityRenderer	180	158
 	124	107
 	126	109
 	127	111
-net/minecraft/client/color/item/ItemColorProvider	0	0
 net/minecraft/client/realms/gui/screen/RealmsParentalConsentScreen	51	56
 	32	33
 	33	37
@@ -58760,6 +58759,7 @@ net/minecraft/client/realms/gui/screen/RealmsParentalConsentScreen	51	56
 	29	30
 	30	31
 	31	32
+net/minecraft/client/color/item/ItemColorProvider	0	0
 net/minecraft/client/util/telemetry/PerformanceMetricsEvent	57	57
 	18	18
 	19	19
@@ -58977,6 +58977,7 @@ net/minecraft/client/network/message/MessageTrustStatus	81	67
 	58	46
 	59	46
 	63	50
+net/minecraft/unused/packageinfo/PackageInfo7190	0	0
 net/minecraft/client/render/entity/model/RaftEntityModel	96	82
 	65	57
 	68	60
@@ -59022,7 +59023,6 @@ net/minecraft/client/render/entity/model/RaftEntityModel	96	82
 	61	54
 	62	54
 	63	55
-net/minecraft/unused/packageinfo/PackageInfo7190	0	0
 net/minecraft/client/network/ServerAddress	96	85
 	65	61
 	70	66

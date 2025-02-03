@@ -16,6 +16,6 @@ public class Fabricchaos implements ModInitializer {
         Moditems.initialize();
 
     }
-}
 
+}
 
