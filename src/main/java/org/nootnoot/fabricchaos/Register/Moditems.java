@@ -1,4 +1,4 @@
-package org.nootnoot.fabricchaos;
+package org.nootnoot.fabricchaos.Register;
 
 import net.fabricmc.fabric.api.registry.CompostingChanceRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
@@ -8,15 +8,12 @@ import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import org.nootnoot.fabricchaos.Fabricchaos;
 import org.nootnoot.fabricchaos.suspiciousItems.SuspiciousSword;
 
 
 public class Moditems {
     public static void initialize() {
-
-        ModBlocks.initialize();
-        Moditemgroup.initialize();
-        ModFluids.initialize();
         CompostingChanceRegistry.INSTANCE.add(Moditems.SUSPICIOUS_SUBSTANCE, 15f);
         FuelRegistry.INSTANCE.add(Moditems.SUSPICIOUS_SUBSTANCE, 60 * 20);
 

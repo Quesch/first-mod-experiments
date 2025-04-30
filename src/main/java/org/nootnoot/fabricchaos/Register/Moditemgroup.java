@@ -1,4 +1,4 @@
-package org.nootnoot.fabricchaos;
+package org.nootnoot.fabricchaos.Register;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+import org.nootnoot.fabricchaos.Fabricchaos;
 
 public class Moditemgroup{
 

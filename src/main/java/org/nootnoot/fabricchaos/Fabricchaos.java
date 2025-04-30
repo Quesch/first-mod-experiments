@@ -1,7 +1,10 @@
 package org.nootnoot.fabricchaos;
 
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.item.Item;
+import org.nootnoot.fabricchaos.Register.ModBlocks;
+import org.nootnoot.fabricchaos.Register.ModFluids;
+import org.nootnoot.fabricchaos.Register.Moditemgroup;
+import org.nootnoot.fabricchaos.Register.Moditems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,6 +17,9 @@ public class Fabricchaos implements ModInitializer {
     @Override
     public void onInitialize() {
         Moditems.initialize();
+        ModBlocks.initialize();
+        Moditemgroup.initialize();
+        ModFluids.initialize();
 
     }
 

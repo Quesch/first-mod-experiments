@@ -1,0 +1,5 @@
+implement through throwing into the fluid (look into create and botania)
+    onScheduledTick von FlowableFluid könnte funktionieren
+test: set leveldecrease per block to zero
+ori spear
+ghostrunner movement

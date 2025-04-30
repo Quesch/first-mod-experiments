@@ -1,4 +1,4 @@
-package org.nootnoot.fabricchaos;
+package org.nootnoot.fabricchaos.modfluids;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -15,6 +15,9 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
+import org.nootnoot.fabricchaos.Register.ModBlocks;
+import org.nootnoot.fabricchaos.Register.ModFluids;
+import org.nootnoot.fabricchaos.Register.Moditems;
 
 public abstract class suspiciousFluid extends FlowableFluid {
 

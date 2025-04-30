@@ -1,18 +1,13 @@
-package org.nootnoot.fabricchaos;
+package org.nootnoot.fabricchaos.Register;
 
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.FluidBlock;
 import net.minecraft.fluid.FlowableFluid;
 import net.minecraft.fluid.Fluid;
-import net.minecraft.fluid.Fluids;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
-import net.minecraft.screen.PlayerScreenHandler;
 import net.minecraft.util.Identifier;
-import org.w3c.dom.events.Event;
+import org.nootnoot.fabricchaos.Fabricchaos;
+import org.nootnoot.fabricchaos.modfluids.suspiciousFluid;
 
 public class ModFluids {
     public static void initialize(){}

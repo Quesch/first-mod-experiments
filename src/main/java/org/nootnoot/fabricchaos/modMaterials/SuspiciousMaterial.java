@@ -1,11 +1,9 @@
-package org.nootnoot.fabricchaos;
+package org.nootnoot.fabricchaos.modMaterials;
 
 
 import net.minecraft.item.*;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.util.Lazy;
-
-import java.util.function.Supplier;
+import org.nootnoot.fabricchaos.Register.Moditems;
 
 /*
 If you're creating multiple tool materials, consider using an Enum to store them. Vanilla does this in the

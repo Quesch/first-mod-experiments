@@ -1,18 +1,14 @@
-package org.nootnoot.fabricchaos;
+package org.nootnoot.fabricchaos.Register;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.entity.ItemEntity;
-import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.FlowableFluid;
-import net.minecraft.fluid.Fluid;
-import net.minecraft.inventory.Inventory;
 import net.minecraft.item.*;
 import net.minecraft.nbt.NbtCompound;
-import net.minecraft.registry.DynamicRegistryManager;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -22,11 +18,10 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import org.nootnoot.fabricchaos.Fabricchaos;
 import org.nootnoot.fabricchaos.suspiciousItems.SuspiciousSword;
 
-import java.util.Arrays;
-
-import static org.nootnoot.fabricchaos.ModFluids.STILLSUSPICIOUSFLUID;
+import static org.nootnoot.fabricchaos.Register.ModFluids.STILLSUSPICIOUSFLUID;
 
 public class ModBlocks {
     public static Block register(Block block, String name, boolean shouldRegisterItem){
@@ -63,7 +58,7 @@ public class ModBlocks {
             return ActionResult.PASS;
         }
     },"suspicious_block",true);
-    public static final Block SUSPICIOUS_FLUID_BLOCK = register(new FluidBlock((FlowableFluid) STILLSUSPICIOUSFLUID, FabricBlockSettings.copy(Blocks.WATER).liquid())
+    public static final Block SUSPICIOUS_FLUID_BLOCK = register(new FluidBlock((FlowableFluid) STILLSUSPICIOUSFLUID, FabricBlockSettings.copy(Blocks.WATER).liquid().pistonBehavior(PistonBehavior.NORMAL))
             ,"suspicious_fluid_block"
             ,false
     );
