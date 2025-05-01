@@ -39,7 +39,7 @@ public class ModBlocks {
 
     public static final Block SUSPICIOUS_BLOCK = register(new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.MOSS_BLOCK)) {
         //well it should work now
-        @Override
+        /*@Override
         public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
             if (player.getStackInHand(hand).getItem() instanceof SwordItem){
                 var inputattmods =((SwordItem)player.getStackInHand(hand).getItem()).getAttributeModifiers(player.getStackInHand(hand), EquipmentSlot.MAINHAND);
@@ -56,7 +56,7 @@ public class ModBlocks {
                 return ActionResult.CONSUME;
             }
             return ActionResult.PASS;
-        }
+        }*/
     },"suspicious_block",true);
     public static final Block SUSPICIOUS_FLUID_BLOCK = register(new FluidBlock((FlowableFluid) STILLSUSPICIOUSFLUID, FabricBlockSettings.copy(Blocks.WATER).liquid().pistonBehavior(PistonBehavior.NORMAL))
             ,"suspicious_fluid_block"
