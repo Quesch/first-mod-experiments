@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Fabricchaos.iml" filepath="$PROJECT_DIR$/.idea/modules/Fabricchaos.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Fabricchaos.client.iml" filepath="$PROJECT_DIR$/.idea/modules/Fabricchaos.client.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Fabricchaos.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Fabricchaos.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Fabricchaos.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Fabricchaos.test.iml" />
